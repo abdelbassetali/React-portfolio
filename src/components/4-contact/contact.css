@@ -1,0 +1,63 @@
+.email{
+    width: 80%;
+    background-color: rgba(132, 131, 130, 0.966);
+    border: 1px solid navy;
+    margin: auto;
+    height: 300px;
+    border-radius: 40px;
+    position: absolute;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.contan{
+    height: 100px;
+}
+.email-1{
+    font-size: 30px;
+ text-transform: capitalize;
+ margin-top: 10px;
+ margin-left: 70px;
+}
+.sing-in{
+    border: none;
+    all: unset;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 60px;
+    width: 280px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding-left: 10px;
+    font-weight: 800;
+}
+.sing{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    width:470px;
+    border: 1px black solid;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+.btn-sing{
+    background: linear-gradient(to left , rgb(39, 39, 64),rgb(167, 166, 166));
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: -10px;
+}
+.thanks{
+    color: var(--title);
+    margin-top: 20px;
+    margin-left: 400px;
+    display: inline;
+    text-transform: capitalize;
+
+}
+.btn-sing:disabled{
+    cursor: not-allowed;
+    opacity: .7;
+}
