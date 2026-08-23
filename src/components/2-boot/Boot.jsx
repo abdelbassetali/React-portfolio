@@ -100,7 +100,7 @@ function Boot(){
 
                         </div>
                         <div className="jopp">
-                           JavaScript
+                            GIS Tools
                         </div>
                     </div>
                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px" className="cricle">
@@ -129,7 +129,7 @@ function Boot(){
 
                         </div>
                         <div className="jopp">
-                        GIS Tools
+                        JavaScript
                         </div>
                     </div>
                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px" className="cricle">
