@@ -78,7 +78,7 @@ function Boot() {
     );
 }
 
-export default Boot;;
+export default Boot;
 
 // import React, { useState } from "react";
 // import './boot.css'
