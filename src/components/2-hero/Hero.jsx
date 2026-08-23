@@ -35,7 +35,8 @@ function Hero() {
                </div>
             </div>
             <div className="right animation ">
-               <Lottie path="/anemation/Lottie Lego .json" />
+               {/* <Lottie path="/anemation/Lottie Lego .json" /> */}
+               <Lottie animationData={legoAnimation} loop={true} />
          </section>
       </div>
    );
