@@ -26,9 +26,9 @@ function Boot() {
     // مصفوفة المهارات الجديدة لترتيب وتحديث الدوائر بكل سهولة
     const skillsList = [
         { percentage: "85%", title: "Web GIS", offset: "65" },       // نجم الشاشة الجديد
-        { percentage: "95%", title: "Frontend", offset: "22" },     // قوتك الأساسية
-        { percentage: "88%", title: "JavaScript", offset: "50" },   // الأساس التقني
-        { percentage: "80%", title: "GIS Tools", offset: "88" }     // أدوات ومكتبات الخرائط
+        { percentage: "80%", title: "Frontend", offset: "22" },     // قوتك الأساسية
+        { percentage: "85%", title: "JavaScript", offset: "50" },   // الأساس التقني
+        { percentage: "85%", title: "GIS Tools", offset: "88" }     // أدوات ومكتبات الخرائط
     ];
 
     return (
