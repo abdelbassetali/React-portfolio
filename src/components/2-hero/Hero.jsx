@@ -2,6 +2,7 @@ import React from "react";
 import './hero.css';
 import Lottie from "lottie-react";
 import { useTypewriter } from 'react-simple-typewriter';
+import legoAnimation from '../../public/anemation/Animation.json'; // أو غير المسار واسم الملف حسب اللي عندك
 
 function Hero() {
    const [typeEffect] = useTypewriter({
@@ -36,8 +37,8 @@ function Hero() {
             </div>
             
             <div className="right animation">
-                <Lottie path="/anemation/lottie-lego.json" loop={true} />       
-            </div> {/* أضفنا قفلة الـ div هنا */}
+               <Lottie animationData={legoAnimation} loop={true} />
+            </div>
          </section>
       </div>
    );
