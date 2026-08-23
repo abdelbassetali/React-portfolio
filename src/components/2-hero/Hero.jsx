@@ -2,7 +2,6 @@ import React from "react";
 import './hero.css';
 import Lottie from "lottie-react";
 import { useTypewriter } from 'react-simple-typewriter';
-import lottieAnimation from '../../public/anemation/Lottie Lego .json';
 function Hero() {
    const [typeEffect] = useTypewriter({
       words: ['Web GIS Developer'],
@@ -35,7 +34,7 @@ function Hero() {
                </div>
             </div>
             <div className="right animation ">
-<Lottie animationData={require('./anemation/Lottie Lego .json')} loop={true} />            </div>
+               <Lottie path="/anemation/Lottie Lego .json" />
          </section>
       </div>
    );
