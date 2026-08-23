@@ -3,8 +3,8 @@ import './main.css'
 import Lottie from "lottie-react"
 import imgAnimation from "../../../public/anemation/Animation.json"
 const project = [
-    { projectTitle: "React project", Category: ["react","alaa",], imgPath: "../1.jpg" },
-    { projectTitle: " Css project", Category: ["alaa ","react"], imgPath: "../2.jpg" },
+    { projectTitle: "React Portfolio", Category: ["react","alaa",], imgPath: "../1.jpg" },
+    { projectTitle: " Car Dealership Website", Category: ["alaa ","react"], imgPath: "../2.jpg" },
     { projectTitle: "Html project", Category: ["react","yaso"], imgPath: "../3.png" },
     { projectTitle: "Bootstrap project", Category: ["alaa","react"], imgPath: "../4.jpg" },
     { projectTitle: "Html&css project", Category: ["react","react","yaso"], imgPath: "../5.jpg" },
