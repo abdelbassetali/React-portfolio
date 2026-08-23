@@ -317,6 +317,19 @@ header .icon-cross:hover {
     position: relative;
     z-index: 2; /* بيخلي الصورة دايماً فوق الخلفية البيضاء وما تختفيش */
 }
+/* اللون في الوضع العادي (Light Mode) */
+.all-icons .icon,
+.all-icons i {
+   color: #1a1a1a; /* لون غامق للأيقونات */
+   transition: color 0.3s ease; /* تنقل ناعم بين الألوان */
+}
+
+/* اللون لما ينشط الـ Dark Mode */
+.dark .all-icons .icon,
+.dark .all-icons i,
+body.dark .all-icons i {
+   color: #00d2ff; /* اختار اللون اللي يعجبك (هنا أزرق فاتح) أو #ffffff للأبيض */
+}
 
 /* ///////////////////////////////////////////
 
