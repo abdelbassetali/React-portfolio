@@ -1,7 +1,8 @@
 import React from "react";
 import './hero.css'
 import Lottie from "lottie-react"
-import imgAnimation from "../../../public/anemation/Lottie Lego .json"
+import imgAnimation from "/anemation/Lottie Lego .json"
+// import imgAnimation from "../../../public/anemation/Lottie Lego .json"
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 function Hero() {
