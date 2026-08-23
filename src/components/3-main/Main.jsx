@@ -31,7 +31,7 @@ const project = [
     },
     { 
         projectTitle: "Modern Furniture Store", 
-        projectDesc: "A sleek and modern furniture store landing page showcasing a stylish chair collection, smooth user experience, and responsive design layouts..",
+        projectDesc: "A sleek and modern furniture store landing page showcasing a stylish chair collection, smooth user experience.",
         Category: ["alaa","react"], 
         imgPath: "../4.jpg" 
     },
