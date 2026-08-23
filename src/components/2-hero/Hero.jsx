@@ -2,6 +2,7 @@ import React from "react";
 import './hero.css';
 import Lottie from "lottie-react";
 import { useTypewriter } from 'react-simple-typewriter';
+import legoAnimation from './anemation/Lottie Lego .json';
 function Hero() {
    const [typeEffect] = useTypewriter({
       words: ['Web GIS Developer'],
