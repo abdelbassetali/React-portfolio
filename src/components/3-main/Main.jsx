@@ -2,30 +2,63 @@ import React, { useState, useRef, useEffect } from "react";
 import './main.css'
 import Lottie from "lottie-react"
 import imgAnimation from "../../../public/anemation/Animation.json"
+// const project = [
+//     { projectTitle: "Personal Portfolio Website", Category: ["react","alaa",], imgPath: "../1.jpg" },
+//     { projectTitle: "Electronics E-commerce", Category: ["alaa ","react"], imgPath: "../2.jpg" },
+//     { projectTitle: "Car Dealership Website", Category: ["react","yaso"], imgPath: "../3.png" },
+//     { projectTitle: "Modern Furniture Store", Category: ["alaa","react"], imgPath: "../4.jpg" },
+//     { projectTitle: "Fashion E-commerce", Category: ["react","react","yaso"], imgPath: "../5.jpg" },
+//     { projectTitle: "Home Furniture Showcase", Category: ["as" ,"react","alaa","yaso"], imgPath: "../6.jpg" },
+// ]
 const project = [
-    { projectTitle: "Personal Portfolio Website", Category: ["react","alaa",], imgPath: "../1.jpg" },
-    { projectTitle: "Electronics E-commerce", Category: ["alaa ","react"], imgPath: "../2.jpg" },
-    { projectTitle: "Car Dealership Website", Category: ["react","yaso"], imgPath: "../3.png" },
-    { projectTitle: "Modern Furniture Store", Category: ["alaa","react"], imgPath: "../4.jpg" },
-    { projectTitle: "Fashion E-commerce", Category: ["react","react","yaso"], imgPath: "../5.jpg" },
-    { projectTitle: "Home Furniture Showcase", Category: ["as" ,"react","alaa","yaso"], imgPath: "../6.jpg" },
+    { 
+        projectTitle: "Personal Portfolio Website", 
+        projectDesc: "My personal portfolio website built with React, showcasing my best web development projects.",
+        Category: ["react","alaa"], 
+        imgPath: "../1.jpg" 
+    },
+    { 
+        projectTitle: "Electronics E-commerce", 
+        projectDesc: "An interactive e-commerce web application built with JavaScript for browsing and purchasing devices.",
+        Category: ["alaa ","react"], 
+        imgPath: "../2.jpg" 
+    },
+    { 
+        projectTitle: "Car Dealership Website", 
+        projectDesc: "A professional responsive website built with Bootstrap, showcasing car models and company details.",
+        Category: ["react","yaso"], 
+        imgPath: "../3.png" 
+    },
+    { 
+        projectTitle: "Modern Furniture Store", 
+        projectDesc: "A sleek and modern furniture store landing page showcasing a stylish chair collection.",
+        Category: ["alaa","react"], 
+        imgPath: "../4.jpg" 
+    },
+    { 
+        projectTitle: "Fashion E-commerce", 
+        projectDesc: "An elegant online clothing store interface featuring trendy apparel and discount banners.",
+        Category: ["react","react","yaso"], 
+        imgPath: "../5.jpg" 
+    },
+    { 
+        projectTitle: "Home Furniture Showcase", 
+        projectDesc: "A clean and responsive website dedicated to displaying home furniture products and services.",
+        Category: ["as" ,"react","alaa","yaso"], 
+        imgPath: "../6.jpg" 
+    },
 ]
 const Main = () => {
     const [alaa, setalaa] = useState("alaa");
     const [arr, setArr] = useState(project);
-    
-  
     return (
         <main>
             <section>
             </section>
             <section className="top-sction ">
-
                 <h1 className="myh">My Project</h1>
-
                 <p className="myh">  I am Abd el Basset Ali. I live in Qena and this is the React project   </p>
                 <div >
-
                     <button onClick={() => {
                        setalaa("yasmeen");
                        const newArr = project.filter((item) => {
@@ -85,11 +118,13 @@ const Main = () => {
                     return (
                         <article key={item.imgPath} className="card " >
                             <img className="img-card" width={258} height={190} src={item.imgPath} alt="" />
+                            
                             <div style={{ width: "260px" }} className="box  ">
                                 <h6 className="title-1">{item.projectTitle}</h6>
-                                <p className="sup-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                {/* <p className="sup-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                                     Praesentium nobis incidunt,
-                                    saepe officiis reprehenderit dolorum modi officia voluptates commodi</p>
+                                    saepe officiis reprehenderit dolorum modi officia voluptates commodi</p> */}
+                                <p className="sup-title">{item.projectDesc}</p>
                                 <div className="end flex">
                                     <div className="icon-github " ></div>
 
