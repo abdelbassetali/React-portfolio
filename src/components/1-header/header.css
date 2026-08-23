@@ -303,6 +303,7 @@ header .icon-cross:hover {
     width: 70%;
     z-index: 1;
     transition: 0.3s ease-in-out;
+    filter: brightness(0) invert(1);
 }
 
 .social-icon a img:hover {
