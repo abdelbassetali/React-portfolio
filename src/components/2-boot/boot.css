@@ -104,3 +104,34 @@ circle{
     color: var(--title);
 
 } 
+
+/* الكود الخاص بالموبايل والشاشات الصغيرة (أقل من 768 بكسل) */
+@media (max-width: 768px) {
+    .yaso {
+        width: 95% !important;
+        height: auto !important; /* عشان يمدد مع المحتوى براحته وما يقففلش على ارتفاع ثابت */
+        padding: 20px 10px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-h1 {
+        position: static !important;
+        margin: 10px auto !important;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .skills-h2 {
+        position: static !important;
+        margin: 5px auto 20px auto !important;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .skill {
+        margin: 15px auto !important;
+        position: relative !important;
+    }
+}
