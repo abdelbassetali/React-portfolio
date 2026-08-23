@@ -289,7 +289,7 @@ header .icon-cross:hover {
     width: 52px;
     height: 52px;
     position: absolute;
-    background-color: var(--title);
+    /* background-color: var(--title); */
     border-radius: 50%;
     transform: scale(0);
     transition: 0.3s ease-in-out;
@@ -305,12 +305,12 @@ header .icon-cross:hover {
     transition: 0.3s ease-in-out;
     opacity: 0.8;
 }
-/* .social-icon a:hover img {
+.social-icon a:hover img {
     filter: brightness(0); /* بتخلي الأيقونة سوداء مثلاً وقت الهفر لو حابب */
-} */
-.social-icon a:img:hover {
-    color: rgb(16, 124, 182);
 }
+/* .social-icon a:img:hover {
+    color: rgb(16, 124, 182);
+} */
 
 /*  */
 .ss {
