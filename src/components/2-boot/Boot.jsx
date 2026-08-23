@@ -37,12 +37,12 @@ function Boot(){
                     <div className="outer">
                         <div className="inner">
                             <div id="number">
-                                82%
+                                85%
                             </div>
 
                         </div>
                         <div className="jopp">
-                        Webdeveloper
+                       Web GIS
                         </div>
                     </div>
                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px" className="cricle">
@@ -67,12 +67,12 @@ function Boot(){
                     <div className="outer">
                         <div className="inner">
                             <div id="number">
-                                95%
+                                80%
                             </div>
 
                         </div>
                         <div className="jopp">
-                            frontend
+                           Frontend
                         </div>
                     </div>
                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px" className="cricle">
@@ -100,7 +100,7 @@ function Boot(){
 
                         </div>
                         <div className="jopp">
-                            backend
+                           JavaScript
                         </div>
                     </div>
                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px" className="cricle">
@@ -124,12 +124,12 @@ function Boot(){
                     <div className="outer">
                         <div className="inner">
                             <div id="number">
-                                75%
+                                80%
                             </div>
 
                         </div>
                         <div className="jopp">
-                        Web designer
+                        GIS Tools
                         </div>
                     </div>
                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px" className="cricle">
