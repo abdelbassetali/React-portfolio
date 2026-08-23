@@ -304,10 +304,11 @@ header .icon-cross:hover {
     z-index: 1;
     transition: 0.3s ease-in-out;
     opacity: 0.8;
+    filter: brightness(0.8) invert(0.8); /* دي بتديك درجة رمادية هادية مش بياض فاقع */
 }
-.social-icon a:hover img {
+/* .social-icon a:hover img {
     filter: brightness(0); /* بتخلي الأيقونة سوداء مثلاً وقت الهفر لو حابب */
-}
+} */
 .social-icon a img:hover {
     color: rgb(16, 124, 182);
 }
