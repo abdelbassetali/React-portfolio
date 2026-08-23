@@ -317,10 +317,13 @@ header .icon-cross:hover {
     font-size: 28px;
     margin-left: 5px;
 }
-
-.social-icon a img {
-  filter: brightness(0) invert(1);
+/* إظهار لون الأيقونات في الدارك مود */
+body.dark .icons div,
+body.dark .social-icon a,
+body.dark [class^="icon-"] {
+  color: #ffffff !important;
 }
+
 /* ///////////////////////////////////////////
 
 header end
