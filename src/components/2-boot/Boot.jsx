@@ -23,12 +23,12 @@ function Boot() {
         }
     };
 
-    // مصفوفة المهارات الجديدة لترتيب وتحديث الدوائر بكل سهولة
+    // مصفوفة المهارات المحدثة لخدمة تخصص Web GIS والمجال بتاعك
     const skillsList = [
-        { percentage: "85%", title: "Web GIS", offset: "65" },       // نجم الشاشة الجديد
-        { percentage: "80%", title: "Frontend", offset: "22" },     // قوتك الأساسية
-        { percentage: "85%", title: "JavaScript", offset: "50" },   // الأساس التقني
-        { percentage: "85%", title: "GIS Tools", offset: "88" }     // أدوات ومكتبات الخرائط
+        { percentage: "85%", title: "Web GIS", offset: "66" },       // 1. التخصص الأساسي
+        { percentage: "85%", title: "GIS Tools", offset: "66" },     // 2. أدوات ومكتبات الخرائط
+        { percentage: "85%", title: "Web Development", offset: "66" },// 3. تطوير الويب العام
+        { percentage: "80%", title: "JavaScript", offset: "88" }     // 4. أساس البرمجة
     ];
 
     return (
@@ -58,13 +58,12 @@ function Boot() {
                                             <stop offset="70%" stopColor="gray" />
                                         </linearGradient>
                                     </defs>
-                                    {/* ضفنا هنا تحكم في الـ strokeDasharray و strokeDashoffset عشان الدايرة تتملي بنسبة مظبوطة */}
                                     <circle 
                                         cx="80" 
                                         cy="80" 
                                         r="70" 
                                         strokeLinecap="round" 
-                                محيت      style={{
+                                        style={{
                                             strokeDasharray: 440,
                                             strokeDashoffset: skill.offset
                                         }}
@@ -80,7 +79,6 @@ function Boot() {
 }
 
 export default Boot;
-
 
 // import React, { useState } from "react";
 // import './boot.css'
