@@ -306,9 +306,7 @@ header .icon-cross:hover {
     opacity: 0.8;
     filter: brightness(0.8) invert(0.8); /* دي بتديك درجة رمادية هادية مش بياض فاقع */
 }
-/* .social-icon a:hover img {
-    filter: brightness(0); /* بتخلي الأيقونة سوداء مثلاً وقت الهفر لو حابب */
-} */
+
 .social-icon a img:hover {
     color: rgb(16, 124, 182);
 }
@@ -317,6 +315,11 @@ header .icon-cross:hover {
 .ss {
     font-size: 28px;
     margin-left: 5px;
+}
+.social-icon a img {
+    width: 70%;
+    position: relative;
+    z-index: 2; /* بيخلي الصورة دايماً فوق الخلفية البيضاء وما تختفيش */
 }
 
 /* ///////////////////////////////////////////
