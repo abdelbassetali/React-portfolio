@@ -1,18 +1,14 @@
-// import React from "react";
-// import './hero.css'
-// import Lottie from "lottie-react"
-// import imgAnimation from "/anemation/Lottie Lego .json"
-// // import imgAnimation from "../../../public/anemation/Lottie Lego .json"
-// import { useTypewriter, Cursor } from 'react-simple-typewriter'
-
 import React from "react";
-import './hero.css';
-import Lottie from "lottie-react";
-import { useTypewriter, Cursor } from 'react-simple-typewriter';
+import './hero.css'
+import Lottie from "lottie-react"
+import imgAnimation from "/anemation/Lottie Lego .json"
+import imgAnimation from "../../../public/anemation/Lottie Lego .json"
+import { useTypewriter, Cursor } from 'react-simple-typewriter'
+
 
 function Hero() {
  const [typeEffect] = useTypewriter({
-   words: ['Front-end developer', 'React developer'],
+   words: ['Front-end developer','Back-enddeveloper','React developer'],
    loop: true,
    typeSpeed: 100,
    deleteSpeed: 50,
@@ -41,8 +37,7 @@ function Hero() {
                </div>
             </div>
             <div className="right animation ">
-               {/* <Lottie animationData={imgAnimation} /> */}
-             <Lottie path="/anemation/Lottie Lego .json" />
+               <Lottie animationData={imgAnimation} /> 
             </div>
          </section>
       </div>
