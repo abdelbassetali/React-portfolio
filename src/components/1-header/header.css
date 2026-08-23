@@ -301,10 +301,10 @@ header .icon-cross:hover {
 
 .social-icon a img {
     width: 70%;
-    /* z-index: 1; */
+    z-index: 5;
     transition: 0.3s ease-in-out;
     filter: brightness(0) invert(1);
-    opacity: 0.5;
+    opacity: 0.2;
 }
 
 .social-icon a img:hover {
