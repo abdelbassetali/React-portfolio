@@ -15,7 +15,8 @@ const project = [
         projectTitle: "Personal Portfolio Website", 
         projectDesc: "My personal portfolio website built with React, showcasing my best web development projects.",
         Category: ["react","alaa"], 
-        imgPath: "../1.jpg" 
+        imgPath: "../1.jpg" ,
+        link: "https://react-portfolio-git-main-abdelbassetaly.vercel.app/"
     },
     { 
         projectTitle: "Electronics E-commerce", 
@@ -127,8 +128,8 @@ const Main = () => {
                                 <p className="sup-title">{item.projectDesc}</p>
                                 <div className="end flex">
                                     <div className="icon-github " ></div>
-
-                                    <a className="more flex" href="">more <span style={{ alignSelf: 'center' }} className="icon-arrow-thin-right"></span>
+<a className="more flex" href={item.link} target="_blank" rel="noopener noreferrer">more <span style={{ alignSelf: 'center' }} className="icon-arrow-thin-right"></span></a>
+                                    {/* <a className="more flex" href="">more <span style={{ alignSelf: 'center' }} className="icon-arrow-thin-right"></span> */}
                                     </a>
                                 </div>
                             </div>
