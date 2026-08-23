@@ -4,11 +4,11 @@ import Lottie from "lottie-react"
 import imgAnimation from "../../../public/anemation/Animation.json"
 const project = [
     { projectTitle: "Personal Portfolio Website", Category: ["react","alaa",], imgPath: "../1.jpg" },
-    { projectTitle: " Car Dealership Website", Category: ["alaa ","react"], imgPath: "../2.jpg" },
-    { projectTitle: "Html project", Category: ["react","yaso"], imgPath: "../3.png" },
-    { projectTitle: "Bootstrap project", Category: ["alaa","react"], imgPath: "../4.jpg" },
-    { projectTitle: "Html&css project", Category: ["react","react","yaso"], imgPath: "../5.jpg" },
-    { projectTitle: "React project", Category: ["as" ,"react","alaa","yaso"], imgPath: "../6.jpg" },
+    { projectTitle: "Electronics E-commerce", Category: ["alaa ","react"], imgPath: "../2.jpg" },
+    { projectTitle: "Car Dealership Website", Category: ["react","yaso"], imgPath: "../3.png" },
+    { projectTitle: "Modern Furniture Store", Category: ["alaa","react"], imgPath: "../4.jpg" },
+    { projectTitle: "Fashion E-commerce", Category: ["react","react","yaso"], imgPath: "../5.jpg" },
+    { projectTitle: "Home Furniture Showcase", Category: ["as" ,"react","alaa","yaso"], imgPath: "../6.jpg" },
 ]
 const Main = () => {
     const [alaa, setalaa] = useState("alaa");
