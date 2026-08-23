@@ -271,9 +271,6 @@ header .icon-cross:hover {
 
 
 
-
-
-
 .social-icon a {
     width: 52px;
     height: 52px;
@@ -316,12 +313,6 @@ header .icon-cross:hover {
 .ss {
     font-size: 28px;
     margin-left: 5px;
-}
-/* إظهار لون الأيقونات في الدارك مود */
-body.dark .icons div,
-body.dark .social-icon a,
-body.dark [class^="icon-"] {
-  color: #ffffff !important;
 }
 
 /* ///////////////////////////////////////////
