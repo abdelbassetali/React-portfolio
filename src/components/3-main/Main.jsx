@@ -22,31 +22,36 @@ const project = [
         projectTitle: "Electronics E-commerce", 
         projectDesc: "An interactive e-commerce web application built with JavaScript for browsing and purchasing devices.",
         Category: ["alaa ","react"], 
-        imgPath: "../2.jpg" 
+        imgPath: "../2.jpg",
+        link: "https://abdelbassetali.github.io/Broject-5/"
     },
     { 
         projectTitle: "Car Dealership Website", 
         projectDesc: "A professional responsive website built with Bootstrap, showcasing car models and company details.",
         Category: ["react","yaso"], 
-        imgPath: "../3.png" 
+        imgPath: "../3.png" ,
+        link: "https://abdelbassetali.github.io/website-4/"
     },
     { 
         projectTitle: "Modern Furniture Store", 
         projectDesc: "A sleek and modern furniture store landing page showcasing a stylish chair collection, smooth user experience.",
         Category: ["alaa","react"], 
-        imgPath: "../4.jpg" 
+        imgPath: "../4.jpg",
+        link: "https://abdelbassetali.github.io/website-2/"
     },
     { 
         projectTitle: "Fashion E-commerce", 
         projectDesc: "An elegant online clothing store interface featuring trendy apparel and discount banners.",
         Category: ["react","react","yaso"], 
-        imgPath: "../5.jpg" 
+        imgPath: "../5.jpg",
+        link: "https://abdelbassetali.github.io/website-3/"
     },
     { 
         projectTitle: "Home Furniture Showcase", 
         projectDesc: "A clean and responsive website dedicated to displaying home furniture products and services.",
         Category: ["as" ,"react","alaa","yaso"], 
-        imgPath: "../6.jpg" 
+        imgPath: "../6.jpg",
+        link: "https://abdelbassetali.github.io/website-1/"
     },
 ]
 const Main = () => {
