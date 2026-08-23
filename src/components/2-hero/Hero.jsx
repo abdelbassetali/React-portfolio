@@ -5,12 +5,12 @@ import imgAnimation from "../../../public/anemation/Lottie Lego .json"
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 function Hero() {
-   const [typeEffect] = useTypewriter({
-      words: [' Front-end developer', ' React developer'],
-      loop: {},
-      typeSpeed: 300,
-      deleteSpeed: 150,
-   })
+ const [typeEffect] = useTypewriter({
+   words: ['Front-end developer', 'React developer'],
+   loop: true,
+   typeSpeed: 100,
+   deleteSpeed: 50,
+})
    return (
       <div className="app">
          <section className="Hero flex">
