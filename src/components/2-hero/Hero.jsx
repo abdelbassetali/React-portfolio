@@ -6,7 +6,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 function Hero() {
    const [typeEffect] = useTypewriter({
-      words: [' Front-end developer', ' Back-end developer', ' React developer'],
+      words: [' Front-end developer', ' React developer'],
       loop: {},
       typeSpeed: 300,
       deleteSpeed: 150,
