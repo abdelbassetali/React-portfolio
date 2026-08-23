@@ -1,8 +1,9 @@
-import React from "react";
+import React from "import React from 'react';";
 import './hero.css';
 import Lottie from "lottie-react";
 import { useTypewriter } from 'react-simple-typewriter';
-import legoAnimation from '../../public/anemation/Animation.json'; // أو غير المسار واسم الملف حسب اللي عندك
+// استورد ملف الـ JSON مباشرة من مجلد الـ src (عدل المسار حسب مكان الملف عندك)
+import legoAnimation from '../../Animation.json'; // أو '../Animation.json' حسب مكان الملف
 
 function Hero() {
    const [typeEffect] = useTypewriter({
@@ -36,7 +37,7 @@ function Hero() {
                </div>
             </div>
             
-            <div className="right animation">
+            <div className="right animation" style={{ width: '100%', maxWidth: '450px' }}>
                <Lottie animationData={legoAnimation} loop={true} />
             </div>
          </section>
