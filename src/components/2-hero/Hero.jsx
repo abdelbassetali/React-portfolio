@@ -5,7 +5,7 @@ import { useTypewriter } from 'react-simple-typewriter';
 
 function Hero() {
    const [typeEffect] = useTypewriter({
-      words: ['Front-end developer'],
+      words: ['Web GIS Developer'],
       loop: true,
       typeSpeed: 100,
       deleteSpeed: 50,
@@ -24,7 +24,7 @@ function Hero() {
                   Hi, I am Abdel Basset Ali
                </h1>
                <span className="wwriter">{typeEffect}</span>
-               <p className="p1">Hello everyone, I have one year of experience in the web development</p>
+               <p className="p1">Hello everyone, I am a Web GIS Developer specializing in building interactive web mapping applications and spatial data visualization.</p>
                <div className="icon-left flex">
                   <div className="icon-1 icon-github"></div>
                   <div className="icon-1 icon-twitter"></div>
