@@ -298,15 +298,11 @@ header .icon-cross:hover {
 
 .social-icon a img {
     width: 70%;
-    z-index: 1;
+    z-index: 2;
     transition: 0.3s ease-in-out;
     opacity: 0.8;
     filter: brightness(0.8) invert(0.8); /* دي بتديك درجة رمادية هادية مش بياض فاقع */
 }
-.social-icon a img {
-    width: 70%;
-    position: relative;
-    z-index: 2; /* بيخلي الصورة دايماً فوق الخلفية البيضاء وما تختفيش */
 
 .social-icon a img:hover {
     color: rgb(19, 151, 222);
