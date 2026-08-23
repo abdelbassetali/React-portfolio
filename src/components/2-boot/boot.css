@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+body, html {
+  overflow-x: hidden; /* دي بتمنع الحركة العرضية تماماً على الموبايل */
+  max-width: 100%;
+}
 .BOOT{
     height: 500px;
     width: 100%;
