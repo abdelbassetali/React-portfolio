@@ -33,7 +33,7 @@ function Boot() {
 
     return (
         <div>
-            <h1 className="skills-h1">Skills</h1>
+            <h1 className="skills-h1">Technical Skills</h1>
             <p className="skills-h2">You Can See My Skills Here</p>
 
             <Carousel className="yaso" responsive={responsive}>
