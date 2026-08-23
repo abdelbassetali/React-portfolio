@@ -23,12 +23,12 @@ function Boot() {
         }
     };
 
-    // مصفوفة المهارات المحدثة لخدمة تخصص Web GIS والمجال بتاعك
+    // الترتيب الجديد والنسب المطلوبة بالظبط
     const skillsList = [
-        { percentage: "85%", title: "Web GIS", offset: "66" },       // 1. التخصص الأساسي
-        { percentage: "85%", title: "GIS Tools", offset: "66" },     // 2. أدوات ومكتبات الخرائط
-        { percentage: "85%", title: "Web Development", offset: "66" },// 3. تطوير الويب العام
-        { percentage: "80%", title: "JavaScript", offset: "88" }     // 4. أساس البرمجة
+        { percentage: "85%", title: "Web GIS", offset: "66" },          // 1. Web GIS
+        { percentage: "80%", title: "JavaScript", offset: "88" },      // 2. JavaScript
+        { percentage: "85%", title: "GIS Tools", offset: "66" },       // 3. GIS Tools
+        { percentage: "85%", title: "Spatial Analysis", offset: "66" } // 4. Spatial Analysis
     ];
 
     return (
@@ -78,7 +78,7 @@ function Boot() {
     );
 }
 
-export default Boot;
+export default Boot;;
 
 // import React, { useState } from "react";
 // import './boot.css'
