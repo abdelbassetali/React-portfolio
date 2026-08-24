@@ -18,7 +18,7 @@ const Footer = () => {
                 <span className="icon-linkedin LL "></span>
                 <span className="icon-facebook2 ww "></span>
                 <span className="icon-instagram ww"></span>
-                <p className="p-footer">--Copy Right 2024 All Right Here By ABD ElBasset Aly--</p>
+                <p className="p-footer">--Copy Right 2026 All Right Here By ABD ElBasset Aly--</p>
             </div>
         </footer>
 
