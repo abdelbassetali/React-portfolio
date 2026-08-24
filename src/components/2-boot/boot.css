@@ -172,12 +172,25 @@ circle{
         align-items: center !important;
     }
 
+  .inner {
+        position: absolute !important;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+        margin: 0 !important;
+    }
+
     .outer {
+        position: relative !important;
+        margin: 0 auto !important;
+    }
+}
+    /* .outer {
         margin: 0 auto !important;
         position: relative !important;
         top: auto !important;
         left: auto !important;
-    }
+    } */
 
     .cricle {
         position: absolute !important;
