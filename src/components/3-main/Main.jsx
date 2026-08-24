@@ -157,9 +157,9 @@ const Main = () => {
                     <h2 className="title-form">Get In Touch</h2>
                     <input className="name" placeholder="First Name" type="text" />
                     <input className="name" placeholder="Last Name" type="text" />
-                    <input className="name" type="email" name="" id="" placeholder="Email Address" />
-                    <input className="name" type="text" placeholder="Phone" />
-                    <input className="placeholder" placeholder="Message" type="text" />
+                    <input className="name" type="email" name="" id="" placeholder="Your Email Address" />
+                    <input className="name" type="text" placeholder="Enter your phone number" />
+                    <input className="placeholder" placeholder="Write your message here..." type="text" />
                     <button className="form-button">Send</button>
 
 
