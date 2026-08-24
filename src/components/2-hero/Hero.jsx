@@ -27,7 +27,10 @@ function Hero() {
                <span className="wwriter">{typeEffect}</span>
                <p className="p1">Hello everyone, I am a Web GIS Developer specializing in building interactive web mapping applications and spatial data visualization.</p>
                <div className="icon-left flex">
+                  {/* <div className="icon-1 icon-github"></div> */}
+                  <a href="https://github.com/abdelbassetali/React-portfolio" target="_blank" rel="noreferrer">
                   <div className="icon-1 icon-github"></div>
+                  </a>
                   <div className="icon-1 icon-twitter"></div>
                </div>
                <div className="letscon flex">
