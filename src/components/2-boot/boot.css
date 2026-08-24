@@ -109,7 +109,7 @@ circle{
     .yaso {
         width: 95% !important;
         height: auto !important; 
-        padding: 20px 10px !important;
+        padding: 25px 15px !important; /* زودنا البادينج العام */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -118,35 +118,36 @@ circle{
     .skills-h1 {
         position: static !important;
         margin: 10px auto !important;
-        font-size: 20px;
+        font-size: 22px; /* كبرنا الخط شوية */
         text-align: center;
     }
 
     .skills-h2 {
         position: static !important;
-        margin: 5px auto 15px auto !important;
-        font-size: 13px;
+        margin: 5px auto 20px auto !important;
+        font-size: 14px;
         text-align: center;
     }
 
     .BOOT {
         height: auto !important;
-        margin-bottom: 10px !important;
+        margin-bottom: 20px !important;
     }
 
-    /* تحكم في حجم الكارت اللي شايل الدائرة عشان يبان واحد بس بوضوح */
+    /* التعديل الأساسي هنا: كبرنا عرض وارتفاع الكارد عشان الدائرة تبان كاملة */
     .corsel {
-        width: 220px !important;
-        height: 250px !important;
-        margin: 10px auto !important;
+        width: 280px !important; /* كان 220px، زودناه لـ 280px */
+        height: 320px !important; /* كان 250px، زودناه لـ 320px */
+        margin: 15px auto !important;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 10px;
+        padding: 20px !important; /* زودنا البادينج الداخلي */
+        border-radius: 30px !important; /* ظبطنا الكورنر */
     }
 
-    /* تصغير حجم الدائرة نفسها على الموبايل لتناسب الشاشة الصغيرة */
+    /* حجم الدائرة نفسه زي ما هو عشان مناسب للعرض الجديد */
     .skill {
         width: 120px !important;
         height: 120px !important;
@@ -167,24 +168,22 @@ circle{
         width: 90px !important;
     }
 
-    /* تصغير خط النسبة المئوية جوه الدائرة */
     #number {
         font-size: 18px;
     }
 
     .jopp {
-        margin-top: 15px !important;
-        font-size: 14px;
+        margin-top: 25px !important; /* زودنا المسافة بين الدائرة والنص */
+        font-size: 16px;
         text-align: center;
+        font-weight: 600;
     }
-  /* تعديل مكان أسهم السلايدر لتكون في المنتصف رأسياً على الموبايل */
-    .corsel button, /* لو الأسهم عبارة عن أزرار */
-    .slick-arrow,   /* لو شغال بمكتبة Slick Carousel */
-    .carousel-arrow /* أو لو مديها كلاس مخصص للأسهم */ {
+
+    /* ظبطنا مكان الأسهم بناءً على الارتفاع الجديد للكارد */
+    .slick-arrow,
+    .carousel-arrow {
         top: 50% !important;
         transform: translateY(-50%) !important;
     }
 }
-
-   
 
