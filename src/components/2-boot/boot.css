@@ -77,12 +77,11 @@ circle{
 }
 
 .jopp{
+    margin-top: 60px !important;
     font-weight: bold;
     text-transform: capitalize;
     color: var(--title);
-    margin: 0 auto !important;
     width:90%
-      margin-top: 60px !important;
 
 }
 
