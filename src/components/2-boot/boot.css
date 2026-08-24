@@ -92,24 +92,18 @@ circle{
  margin: auto;
 }
 
-.skills-h1 {
-    text-align: center !important;
-    display: block !important;
-    width: 100% !important;
-    margin-top: 40px !important; /* زود الرقم ده (مثلاً خليه 40px أو 50px) عشان تبعد عن الحافة وتنزله جوه الكارد براحتك */
-    margin-bottom: 5px !important;
-    position: static !important;
+.skills-h1{
+    position: absolute;
+    margin-left: 510px;
+    margin-top: 20px;
     color: var(--title);
 }
-
-.skills-h2 {
-    text-align: center !important;
-    display: block !important;
-    width: 100% !important;
-    margin-top: 0 !important;
-    margin-bottom: 30px !important; /* المسافة دي بتفصل العنوان الصغير عن الدوائر وتحتفظ بمظهر مرتب */
-    position: static !important;
+.skills-h2{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 80px;
     color: var(--title);
+
 }
 @media (max-width: 768px) {
     /* الكارد الحاضن للسلايدر للعرض الكامل */
