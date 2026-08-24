@@ -132,7 +132,7 @@ const Main = () => {
                                     saepe officiis reprehenderit dolorum modi officia voluptates commodi</p> */}
                                 <p className="sup-title">{item.projectDesc}</p>
                                 <div className="end flex">
-                                    <div className="icon-github " ></div>
+                                    <div className=" colorgithub  icon-github " ></div>
 <a className="more flex" href={item.link} target="_blank" rel="noopener noreferrer">more <span style={{ alignSelf: 'center' }} className="icon-arrow-thin-right"></span></a>
                                     {/* <a className="more flex" href="">more <span style={{ alignSelf: 'center' }} className="icon-arrow-thin-right"></span> </a>*/}
                                     
