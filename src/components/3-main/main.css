@@ -98,13 +98,12 @@ top-sction
 }
 
 
-/* .icon-github {
-color: var(--border)} */
-.colorgithub{
-    var(--title);
+
+ .colorgithub{
+   color: var(--title);
 }
 .more {
-    color: var((--icon);
+    color: var(--icon);
 
 }
 
