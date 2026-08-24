@@ -407,13 +407,5 @@ top-sction
         padding: 0 5px !important;
     }
 }
-@media (max-width: 768px) {
-    /* تخلي الـ before مخفي في العادي على الموبايل، ويشتغل لما تعمل تاتش أو هافر */
-    .card:active::before,
-    .card:hover::before {
-        width: 100% !important;
-        height: 100% !important;
-        opacity: .9 !important;
-        z-index: -1 !important; /* تحت العناصر زي ما طلبنا */
-    }
-}
+
+
