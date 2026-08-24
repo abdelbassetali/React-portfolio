@@ -165,11 +165,12 @@ circle{
         transform: translateX(-50%) !important;
     }
 
-    .jopp {
-        margin-top: 10px !important;
+ .jopp {
+        margin-top: 30px !important;    /* عشان ننزل الكلام لتحت براحته */
         text-align: center !important;
         position: static !important;
-        font-size: 14px !important;
+        font-size: 16px !important;     /* كبرنا الخط من 14px لـ 16px عشان يبدي وضوح أحسن */
+        font-weight: 600 !important;    /* اختياري: لو حابب تخلي خط العنوان أوضح وأبرز */
     }
 
     /* تظبيط مكان الأسهم في نص الكارت تماماً */
