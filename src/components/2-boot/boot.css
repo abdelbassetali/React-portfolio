@@ -105,7 +105,6 @@ circle{
 
 } 
 
-/* الكود الخاص بالموبايل والشاشات الصغيرة (أقل من 768 بكسل) */
 @media (max-width: 768px) {
     .yaso {
         width: 95% !important;
@@ -119,48 +118,73 @@ circle{
     .skills-h1 {
         position: static !important;
         margin: 10px auto !important;
-        font-size: 22px;
+        font-size: 20px;
         text-align: center;
     }
 
     .skills-h2 {
         position: static !important;
-        margin: 5px auto 20px auto !important;
-        font-size: 14px;
+        margin: 5px auto 15px auto !important;
+        font-size: 13px;
         text-align: center;
     }
 
-    /* ظبطنا الكارت والحاوية الخاصة بكل مهارة عشان تظهر جوه الكارد الكبير بترتيب مظبوط */
     .BOOT {
         height: auto !important;
-        margin-bottom: 20px !important;
+        margin-bottom: 10px !important;
     }
 
+    /* تحكم في حجم الكارت اللي شايل الدائرة عشان يبان واحد بس بوضوح */
     .corsel {
-        width: 100% !important;
-        max-width: 280px;
-        height: auto !important;
+        width: 220px !important;
+        height: 250px !important;
         margin: 10px auto !important;
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-bottom: 20px;
+        justify-content: center;
+        padding: 10px;
     }
 
+    /* تصغير حجم الدائرة نفسها على الموبايل لتناسب الشاشة الصغيرة */
     .skill {
-        width: 160px !important;
-        height: 160px !important;
-        margin: 10px auto !important;
+        width: 120px !important;
+        height: 120px !important;
+        margin: 0 auto !important;
         position: relative !important;
     }
 
     .outer {
-        margin-top: 10px !important; /* لغينا الـ 430px بتاعة اللابتوب عشان تدخل جوه الكارد */
+        width: 120px !important;
+        height: 120px !important;
+        padding: 10px !important;
+        margin-top: 0 !important;
         margin-left: 0 !important;
     }
 
+    .inner {
+        height: 90px !important;
+        width: 90px !important;
+    }
+
+    /* تصغير خط النسبة المئوية جوه الدائرة */
+    #number {
+        font-size: 18px;
+    }
+
     .jopp {
-        margin-top: 20px !important;
+        margin-top: 15px !important;
+        font-size: 14px;
         text-align: center;
     }
+  /* تعديل مكان أسهم السلايدر لتكون في المنتصف رأسياً على الموبايل */
+    .corsel button, /* لو الأسهم عبارة عن أزرار */
+    .slick-arrow,   /* لو شغال بمكتبة Slick Carousel */
+    .carousel-arrow /* أو لو مديها كلاس مخصص للأسهم */ {
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+    }
 }
+
+   
+
