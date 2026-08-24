@@ -236,9 +236,7 @@ color: var(--border)}
 .form-button:hover {
     opacity: 1;
 }
-icon-1{
-     color: var(--title);
-}
+
 
 .myh{
     color: var(--title);
