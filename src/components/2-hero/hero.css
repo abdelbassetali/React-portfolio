@@ -193,7 +193,7 @@ margin-top: 20px;
         width: 100% !important;
         max-width: 220px !important;
         margin: 20px auto 10px auto !important;
-        order: -1 !important; /* بتخلي الأنيميشن تظهر فوق خالص قبل الاسم، لو عايزها تحت الاسم امسح السطر ده */
+        order: 2 !important; /*بتخلي الأنيميشن تظهر تحت خالص بعد الاسم،       */
     }
 }
 
