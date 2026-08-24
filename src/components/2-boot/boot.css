@@ -167,24 +167,26 @@ circle{
 .outer {
         position: relative !important;
         margin: 0 auto !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
     }
 
-    /* التعديل السليم والنهائي للنسبة والدائرة جوه الميديا بس */
     .inner {
-        position: absolute !important;
-        top: 50% !important;
-        left: 50% !important;
-        transform: translate(-50%, -50%) !important;
-        margin: 0 !important;
-        z-index: 2;
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        transform: none !important;
+        margin: 0 auto !important;
     }
+
+
 
     .cricle {
         position: absolute !important;
-        top: 50% !important;
+        top: 0 !important;
         left: 50% !important;
-        transform: translate(-50%, -50%) !important;
-        z-index: 1;
+        transform: translateX(-50%) !important;
     }
 
     .jopp {
