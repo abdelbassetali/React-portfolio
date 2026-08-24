@@ -220,7 +220,8 @@ circle{
 
         top: auto !important;
 
-        left: auto !important;
+        /* left: auto !important; */
+      margin-left:150px
 
     }
 
