@@ -105,94 +105,21 @@ circle{
 
 } 
 @media (max-width: 768px) {
-    /* ظبط حاوية السلايدر الكبيرة */
-    .yaso {
-        width: 95% !important;
-        padding: 30px 10px !important;
-        position: relative !important;
-    }
-
-    /* كارت المهارة الفردي وجعله في المنتصف */
-    .react-multi-carousel-item {
-        display: flex !important;
-        justify-content: center !important;
-        align-items: center !important;
-    }
-
-    /* تحجيم الكارت الداخلي ليستوعب الدائرة براحته */
+    /* سنتر عناصر السلايدر جوه الموبايل */
     .skill {
-        width: 240px !important;
-        height: 280px !important;
         margin: 0 auto !important;
         display: flex !important;
         flex-direction: column !important;
         align-items: center !important;
         justify-content: center !important;
+    }
+
+    /* إلغاء الهوامش الجانبية العالية بتاعت اللابتوب */
+    .outer, .cricle {
+        margin: 0 auto !important;
         position: relative !important;
-    }
-
-    /* إلغاء الـMargins الخاصة باللاب توب تماماً */
-    .skills {
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-    }
-
-    .outer {
-        width: 130px !important;
-        height: 130px !important;
-        margin: 0 !important;
-        padding: 15px !important;
-        position: relative !important;
-    }
-
-    .inner {
-        width: 100px !important;
-        height: 100px !important;
-    }
-
-    .cricle {
-        width: 130px !important;
-        height: 130px !important;
-        position: absolute !important;
-        top: 0 !important;
-        left: 50% !important;
-        transform: translateX(-50%) !important;
-    }
-
-    /* تعديل إحداثيات الدائرة الداخلية الـ SVG */
-    .cricle circle {
-        cx: 65px !important;
-        cy: 65px !important;
-        r: 55px !important;
-        stroke-dasharray: 345 !important; /* يتناسب مع نصف القطر الجديد */
-    }
-
-    #number {
-        font-size: 18px !important;
-    }
-
-    .jopp {
-        margin-top: 15px !important;
-        font-size: 15px !important;
-        text-align: center !important;
-        position: static !important;
-    }
-
-    /* ضبط أسهم مكتبة react-multi-carousel لتكون في المنتصف رأسياً */
-    .react-multiple-carousel__arrow {
-        min-width: 35px !important;
-        min-height: 35px !important;
-        top: 45% !important;
-        transform: translateY(-50%) !important;
-        z-index: 10 !important;
-    }
-    
-    .react-multiple-carousel__arrow--left {
-        left: 5px !important;
-    }
-
-    .react-multiple-carousel__arrow--right {
-        right: 5px !important;
+        left: auto !important;
+        top: auto !important;
+        transform: none !important;
     }
 }
