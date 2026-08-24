@@ -222,7 +222,6 @@ circle{
 
         left: auto !important; */
 
-  @media (max-width: 768px) {
     /* ... أي كود تاني عندك جوه الميديا سيبه زي ما هو ... */
 
     .skills {
@@ -266,7 +265,6 @@ circle{
         transform: none !important;
         margin: 0 auto !important;
     }
-}
 
 
 
