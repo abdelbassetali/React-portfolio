@@ -208,6 +208,15 @@ width: 100px;
   color: #ffffff !important;
   transform: translateY(-3px);
   }
+@media (max-width: 768px) {
+    .scrool {
+        width: 1.8rem !important;  /* تصغير العرض على الموبايل */
+        height: 1.8rem !important; /* تصغير الارتفاع عشان يفضل دائري */
+        font-size: 0.8rem !important; /* تصغير حجم السهم جوه الزرار */
+        bottom: 1rem !important;   /* تقريب الزرار للمسافة السفلى */
+        right: 1rem !important;    /* تقريب الزرار لحافة الشاشة اليمين */
+    }
+}
  /* //////////////////////////////////
  
  
