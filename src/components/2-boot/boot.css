@@ -19,7 +19,7 @@ body, html {
     margin: 20px 16px;
 }
 
- /* .skill{
+ .skill{
     width: 160px;
     height: 160px;
     position: relative;
@@ -27,16 +27,8 @@ body, html {
     margin-bottom: 500px;
     justify-content: space-between;
 
-} */
-.skill {
-    width: 160px;
-    height: auto;
-    position: relative;
-    margin: 0 auto !important;     /* توسيط الكارت كله أفقياً */
-    display: flex;
-    flex-direction: column;
-    align-items: center;         /* توسيط العناصر جوا الكارت عمودياً في النص */
 }
+
 
 .outer{
     width: 160px;
