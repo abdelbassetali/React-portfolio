@@ -91,6 +91,7 @@ margin: 25px 0;
 }
 .icon-1{
     transition: .2s;
+    color: var(--title) !important;
 }
 .icon-left .icon-1:hover{
     font-size: 30px;
