@@ -105,37 +105,33 @@ circle{
 
 } 
 @media (max-width: 768px) {
-    /* 1. ضبط الكارد الكبير الحاضن للسلايدر */
+    /* الكارد الحاضن للسلايدر للعرض الكامل */
     .yaso {
-        width: 95% !important;
+        width: 100% !important;
         height: auto !important;
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        padding: 20px 0 !important;
-        margin: 20px auto !important;
-        position: relative !important;
+        padding: 10px 0 !important;
+        margin: 15px auto !important;
     }
 
-    /* 2. إعادة العناوين لمكانها الطبيعي فوق الكارد ومنع طيرانها */
+    /* العناوين ثابتة ومرتبة فوق */
     .skills-h1 {
         position: static !important;
         margin: 0 auto 5px auto !important;
         text-align: center !important;
-        font-size: 24px !important;
+        font-size: 22px !important;
     }
 
     .skills-h2 {
         position: static !important;
-        margin: 0 auto 15px auto !important;
+        margin: 0 auto 10px auto !important;
         text-align: center !important;
-        font-size: 14px !important;
+        font-size: 13px !important;
     }
 
-    /* 3. إلغاء الـ Margins الضخمة بتاعت اللاب توب من جوه الكارت */
+    /* ضبط حجم الكارت لكل دائرة عشان يشيلهم جنب بعض */
     .skill {
-        width: 140px !important;
-        height: auto !important;
+        width: 130px !important;
+        height: 180px !important;
         margin: 0 auto !important;
         display: flex !important;
         flex-direction: column !important;
@@ -143,14 +139,16 @@ circle{
         justify-content: center !important;
     }
 
+    /* تصغير حجم الدائرة نفسها بالـ Scale عشان تناسب الشاشة الصغيرة */
     .skills {
+        transform: scale(0.65) !important;
+        transform-origin: center center;
+        margin: 0 auto !important;
+        position: relative !important;
+        width: 100% !important;
         display: flex !important;
         flex-direction: column !important;
         align-items: center !important;
-        position: relative !important;
-        width: 100% !important;
-        transform: scale(0.8); /* تصغير خفيف عشان الدوائر تكفي جنب بعض */
-        transform-origin: top center;
     }
 
     .outer {
@@ -168,25 +166,26 @@ circle{
     }
 
     .jopp {
-        margin-top: 20px !important;
+        margin-top: 10px !important;
         text-align: center !important;
         position: static !important;
+        font-size: 14px !important;
     }
 
-    /* 4. إضافات لتوسيط أسهم الكاروسيل في النص بالضبط للموبايل */
+    /* تظبيط مكان الأسهم في نص الكارت تماماً */
     .react-multiple-carousel__arrow {
-        top: 45% !important;
+        top: 50% !important;
         transform: translateY(-50%) !important;
-        min-width: 30px !important;
-        min-height: 30px !important;
+        min-width: 28px !important;
+        min-height: 28px !important;
         z-index: 10 !important;
     }
 
     .react-multiple-carousel__arrow--left {
-        left: 0px !important;
+        left: 2px !important;
     }
 
     .react-multiple-carousel__arrow--right {
-        right: 0px !important;
+        right: 2px !important;
     }
 }
