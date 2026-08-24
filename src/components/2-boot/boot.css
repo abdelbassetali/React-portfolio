@@ -78,7 +78,7 @@ circle{
 }
 
 .jopp {
-    margin-top: 25px !important;    /* المسافة بين الدائرة والكلام */
+    margin-top: 35px !important;    /* المسافة بين الدائرة والكلام */
     text-align: center !important;  /* توسيط النص في منتصف الدايرة */
     position: static !important;
     width: 100% !important;         /* عشان ياخد عرضه كامل وميتحشورقش */
