@@ -116,96 +116,177 @@ circle{
 }
 
 @media (max-width: 768px) {
+
     /* الكارد الحاضن للسلايدر للعرض الكامل */
+
     .yaso {
+
         width: 100% !important;
+
         height: auto !important;
+
         padding: 10px 0 !important;
+
         margin: 15px auto !important;
+
     }
+
+
 
     /* العناوين ثابتة ومرتبة فوق */
-    .skills-h1 {
-        text-align: center !important;
-        display: block !important;
-        width: 100% !important;
-        margin: 20px auto 5px auto !important;
-        position: static !important;
-    }
 
-    .skills-h2 {
-        text-align: center !important;
-        display: block !important;
-        width: 100% !important;
-        margin: 0 auto 20px auto !important;
-        position: static !important;
-    }
+ .skills-h1 {
+
+    text-align: center !important;
+
+    display: block !important;
+
+    width: 100% !important;
+
+    margin: 20px auto 5px auto !important;
+
+    position: static !important; /* عشان نلغي أي position absolute قديم كان بيطيرهم */
+
+}
+
+
+
+.skills-h2 {
+
+    text-align: center !important;
+
+    display: block !important;
+
+    width: 100% !important;
+
+    margin: 0 auto 20px auto !important;
+
+    position: static !important;
+
+}
+
+
 
     /* ضبط حجم الكارت لكل دائرة عشان يشيلهم جنب بعض */
+
     .skill {
+
         width: 130px !important;
+
         height: 180px !important;
+
         margin: 0 auto !important;
+
         display: flex !important;
+
         flex-direction: column !important;
+
         align-items: center !important;
+
         justify-content: center !important;
+
     }
+
+
 
     /* تصغير حجم الدائرة نفسها بالـ Scale عشان تناسب الشاشة الصغيرة */
+
     .skills {
+
         transform: scale(0.65) !important;
+
         transform-origin: center center;
+
         margin: 0 auto !important;
+
         position: relative !important;
+
         width: 100% !important;
+
         display: flex !important;
+
         flex-direction: column !important;
+
         align-items: center !important;
+
     }
+
+
 
     .outer {
-        position: relative !important;
+
         margin: 0 auto !important;
+
+        position: relative !important;
+
+        top: auto !important;
+
+        left: auto !important;
+
     }
 
-    .inner {
-        position: absolute !important;
-        top: 50% !important;
-        left: 50% !important;
-        transform: translate(-50%, -50%) !important;
-        margin: 0 !important;
-    }
+
 
     .cricle {
+
         position: absolute !important;
+
         top: 0 !important;
+
         left: 50% !important;
+
         transform: translateX(-50%) !important;
+
     }
 
-    .jopp {
-        margin-top: 39px !important;
+
+
+ .jopp {
+
+        margin-top: 39px !important;    /* عشان ننزل الكلام لتحت براحته */
+
         text-align: center !important;
+
         position: static !important;
-        font-size: 16px !important;
-        font-weight: 600 !important;
+
+        font-size: 16px !important;     /* كبرنا الخط من 14px لـ 16px عشان يبدي وضوح أحسن */
+
+        font-weight: 600 !important;    /* اختياري: لو حابب تخلي خط العنوان أوضح وأبرز */
+
     }
+
+
 
     /* تظبيط مكان الأسهم في نص الكارت تماماً */
+
     .react-multiple-carousel__arrow {
+
         top: 50% !important;
+
         transform: translateY(-50%) !important;
+
         min-width: 28px !important;
+
         min-height: 28px !important;
+
         z-index: 10 !important;
+
     }
+
+
 
     .react-multiple-carousel__arrow--left {
+
         left: 2px !important;
+
     }
 
+
+
     .react-multiple-carousel__arrow--right {
+
         right: 2px !important;
+
     }
+
 }
