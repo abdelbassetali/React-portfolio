@@ -279,12 +279,11 @@ top-sction
         margin-left: 0 !important;
     }
 
-    /* صندوق الرسالة (Textarea) يأخذ عرض مناسب ومريح للكتبة */
-    .placeholder {
+.placeholder {
         width: 90% !important;
         margin: 8px 0 !important;
         margin-left: 0 !important;
-        height: 150px !important;
+        height: 80px !important; /* صغرنا الارتفاع بدل 150px أو أكتر */
         padding-bottom: 0 !important;
     }
 
