@@ -114,7 +114,6 @@ circle{
     position: static !important;
     color: var(--title);
 }
-
 @media (max-width: 768px) {
 
     /* الكارد الحاضن للسلايدر للعرض الكامل */
@@ -213,33 +212,7 @@ circle{
 
 
 
-  .inner {
-
-        position: absolute !important;
-
-        top: 50% !important;
-
-        left: 50% !important;
-
-        transform: translate(-50%, -50%) !important;
-
-        margin: 0 !important;
-
-    }
-
-
-
     .outer {
-
-        position: relative !important;
-
-        margin: 0 auto !important;
-
-    }
-
-}
-
-    /* .outer {
 
         margin: 0 auto !important;
 
@@ -249,7 +222,7 @@ circle{
 
         left: auto !important;
 
-    } */
+    }
 
 
 
@@ -314,3 +287,5 @@ circle{
         right: 2px !important;
 
     }
+
+}
