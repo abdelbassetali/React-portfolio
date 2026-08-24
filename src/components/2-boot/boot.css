@@ -191,143 +191,58 @@ circle{
 
     /* تصغير حجم الدائرة نفسها بالـ Scale عشان تناسب الشاشة الصغيرة */
 
-    /* .skills {
-
-        transform: scale(0.65) !important;
-
-        transform-origin: center center;
-
-        margin: 0 auto !important;
-
-        position: relative !important;
-
-        width: 100% !important;
-
-        display: flex !important;
-
-        flex-direction: column !important;
-
-        align-items: center !important;
-
-    } */
-
-
-    /* .outer {
-
-        margin: 0 auto !important;
-
-        position: relative !important;
-
-        top: auto !important;
-
-        left: auto !important; */
-
-    /* ... أي كود تاني عندك جوه الميديا سيبه زي ما هو ... */
-
     .skills {
-        position: relative !important;
-        width: 160px !important;
-        height: 160px !important;
+        transform: scale(0.65) !important;
+        transform-origin: center center;
         margin: 0 auto !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-    }
-
-    .outer {
-        position: absolute !important;
-        top: 0 !important;
-        left: 0 !important;
-        width: 160px !important;
-        height: 160px !important;
-        margin: 0 !important;
-        padding: 20px !important;
+        position: relative !important;
+        width: 100% !important;
         display: flex !important;
         flex-direction: column !important;
         align-items: center !important;
-        justify-content: center !important;
-        z-index: 2 !important;
-    }
 
-    .cricle {
-        position: absolute !important;
-        top: 0 !important;
-        left: 0 !important;
-        width: 160px !important;
-        height: 160px !important;
-        z-index: 1 !important;
-    }
+    } 
 
-    .inner {
+
+     .outer {
+        margin: 0 auto !important;
         position: relative !important;
         top: auto !important;
         left: auto !important;
-        transform: none !important;
-        margin: 0 auto !important;
-    }
-
-
 
     .cricle {
-
         position: absolute !important;
-
         top: 0 !important;
-
         left: 50% !important;
-
         transform: translateX(-50%) !important;
-
     }
-
 
 
  .jopp {
-
         margin-top: 39px !important;    /* عشان ننزل الكلام لتحت براحته */
-
         text-align: center !important;
-
         position: static !important;
-
         font-size: 16px !important;     /* كبرنا الخط من 14px لـ 16px عشان يبدي وضوح أحسن */
-
         font-weight: 600 !important;    /* اختياري: لو حابب تخلي خط العنوان أوضح وأبرز */
 
     }
-
-
-
     /* تظبيط مكان الأسهم في نص الكارت تماماً */
-
     .react-multiple-carousel__arrow {
-
         top: 50% !important;
-
         transform: translateY(-50%) !important;
-
         min-width: 28px !important;
-
         min-height: 28px !important;
-
         z-index: 10 !important;
-
     }
 
-
-
     .react-multiple-carousel__arrow--left {
-
         left: 2px !important;
-
     }
 
 
 
     .react-multiple-carousel__arrow--right {
-
         right: 2px !important;
-
     }
 
 }
