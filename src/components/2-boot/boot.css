@@ -114,6 +114,7 @@ circle{
         align-items: center !important;
         padding: 20px 0 !important;
         margin: 20px auto !important;
+        position: relative !important;
     }
 
     /* 2. إعادة العناوين لمكانها الطبيعي فوق الكارد ومنع طيرانها */
@@ -133,9 +134,9 @@ circle{
 
     /* 3. إلغاء الـ Margins الضخمة بتاعت اللاب توب من جوه الكارت */
     .skill {
-        width: 100% !important;
+        width: 140px !important;
         height: auto !important;
-        margin: 0 !important;
+        margin: 0 auto !important;
         display: flex !important;
         flex-direction: column !important;
         align-items: center !important;
@@ -148,6 +149,8 @@ circle{
         align-items: center !important;
         position: relative !important;
         width: 100% !important;
+        transform: scale(0.8); /* تصغير خفيف عشان الدوائر تكفي جنب بعض */
+        transform-origin: top center;
     }
 
     .outer {
@@ -168,5 +171,22 @@ circle{
         margin-top: 20px !important;
         text-align: center !important;
         position: static !important;
+    }
+
+    /* 4. إضافات لتوسيط أسهم الكاروسيل في النص بالضبط للموبايل */
+    .react-multiple-carousel__arrow {
+        top: 45% !important;
+        transform: translateY(-50%) !important;
+        min-width: 30px !important;
+        min-height: 30px !important;
+        z-index: 10 !important;
+    }
+
+    .react-multiple-carousel__arrow--left {
+        left: 0px !important;
+    }
+
+    .react-multiple-carousel__arrow--right {
+        right: 0px !important;
     }
 }
