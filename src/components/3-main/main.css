@@ -406,14 +406,7 @@ top-sction
         text-align: center !important;
         padding: 0 5px !important;
     }
-.card:hover {
-        border: 1px solid var(--childtitle) !important;
-        rotate: 0deg !important;
-        scale: 1 !important;
-    }
 
-    .card:hover::before,
-    .card::before {
-        display: none !important;
-    }
+
+  
 }
