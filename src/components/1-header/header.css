@@ -327,7 +327,22 @@ header.flex {
     margin-left: 5px;
 }
 
+/* حل مشكلة ألوان الـ Modal في وضع الـ Light Mode */
+body.light header .fixed ul.model {
+    background-color: #ffffff !important; /* خلفية بيضاء صافية */
+}
 
+body.light header .fixed ul.model li a {
+    color: #111111 !important; /* لون كلام غامق وواضح */
+}
+
+body.light header .fixed .icon-cross {
+    color: #111111 !important; /* لون زر الإغلاق */
+}
+
+body.light header .fixed ul.model li {
+    border-bottom: 1px solid #e0e0e0 !important; /* لون خط فاصل فاتح ومناسب */
+}
 /* ///////////////////////////////////////////
 
 header end
