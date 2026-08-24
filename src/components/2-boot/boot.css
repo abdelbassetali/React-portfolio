@@ -109,7 +109,7 @@ circle{
 @media (max-width: 768px) {
     .yaso {
         width: 95% !important;
-        height: auto !important; /* عشان يمدد مع المحتوى براحته وما يقففلش على ارتفاع ثابت */
+        height: auto !important; 
         padding: 20px 10px !important;
         display: flex;
         flex-direction: column;
@@ -130,8 +130,37 @@ circle{
         text-align: center;
     }
 
+    /* ظبطنا الكارت والحاوية الخاصة بكل مهارة عشان تظهر جوه الكارد الكبير بترتيب مظبوط */
+    .BOOT {
+        height: auto !important;
+        margin-bottom: 20px !important;
+    }
+
+    .corsel {
+        width: 100% !important;
+        max-width: 280px;
+        height: auto !important;
+        margin: 10px auto !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
     .skill {
-        margin: 15px auto !important;
+        width: 160px !important;
+        height: 160px !important;
+        margin: 10px auto !important;
         position: relative !important;
+    }
+
+    .outer {
+        margin-top: 10px !important; /* لغينا الـ 430px بتاعة اللابتوب عشان تدخل جوه الكارد */
+        margin-left: 0 !important;
+    }
+
+    .jopp {
+        margin-top: 20px !important;
+        text-align: center;
     }
 }
