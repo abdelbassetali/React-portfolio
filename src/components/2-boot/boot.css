@@ -104,7 +104,7 @@ circle{
     text-align: center !important;
     display: block !important;
     width: 100% !important;
-    margin: 0 auto 30px auto !important;
+    margin: 50 auto 30px auto !important;
     position: static !important;
     color: var(--title);
 }
