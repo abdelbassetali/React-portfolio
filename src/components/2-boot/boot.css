@@ -114,19 +114,21 @@ circle{
     }
 
     /* العناوين ثابتة ومرتبة فوق */
-    .skills-h1 {
-        position: static !important;
-        margin: 0 auto 5px auto !important;
-        text-align: center !important;
-        font-size: 22px !important;
-    }
+ .skills-h1 {
+    text-align: center !important;
+    display: block !important;
+    width: 100% !important;
+    margin: 20px auto 5px auto !important;
+    position: static !important; /* عشان نلغي أي position absolute قديم كان بيطيرهم */
+}
 
-    .skills-h2 {
-        position: static !important;
-        margin: 0 auto 10px auto !important;
-        text-align: center !important;
-        font-size: 13px !important;
-    }
+.skills-h2 {
+    text-align: center !important;
+    display: block !important;
+    width: 100% !important;
+    margin: 0 auto 20px auto !important;
+    position: static !important;
+}
 
     /* ضبط حجم الكارت لكل دائرة عشان يشيلهم جنب بعض */
     .skill {
@@ -166,7 +168,7 @@ circle{
     }
 
  .jopp {
-        margin-top: 30px !important;    /* عشان ننزل الكلام لتحت براحته */
+        margin-top: 39px !important;    /* عشان ننزل الكلام لتحت براحته */
         text-align: center !important;
         position: static !important;
         font-size: 16px !important;     /* كبرنا الخط من 14px لـ 16px عشان يبدي وضوح أحسن */
