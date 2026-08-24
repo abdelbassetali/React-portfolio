@@ -22,11 +22,13 @@ header ul li a {
 
 
 .logo {
-    font-weight: bolder;
-    font-size: 28px;
-    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 22px;         /* صغرناه سيكا عشان يقعد براحته في سطر واحد */
+ letter-spacing: 1px; 
     color: var(--title);
+       white-space: nowrap; 
 }
+
 
 
 header ul li a:hover {
