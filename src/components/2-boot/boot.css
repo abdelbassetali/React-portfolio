@@ -211,7 +211,14 @@ circle{
 
     }
 
-
+.inner {
+        position: absolute !important;
+        top: 50% !important;
+        left: 45% !important; /* قللنا الشمال شوية عشان ترجع سنتر الدايرة الكبيرة بالظبط */
+        transform: translate(-50%, -50%) !important;
+        margin: 0 !important;
+        z-index: 2;
+    }
 
     .outer {
 
