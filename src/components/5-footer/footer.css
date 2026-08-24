@@ -60,57 +60,53 @@ color: var(--title);
     .foot {
         flex-direction: column !important;
         align-items: center !important;
-        margin-top: 50px !important;
+        margin-top: 40px !important;
         text-align: center !important;
-        padding: 20px 10px !important;
+        padding: 20px 15px !important;
     }
 
     .alaa {
+        font-size: 24px !important;
         margin-bottom: 15px !important;
         margin-left: 0 !important;
     }
 
-    /* نخلي لينكات القائمة تظهر بشكل أفقي ومنظم جنب بعض على الموبايل */
+    /* نخلي لينكات القائمة جنب بعض في سطر واحد وبشكل شيك */
     .right-foot {
         flex-direction: row !important;
-        flex-wrap: wrap !important;
         justify-content: center !important;
+        gap: 8px !important;
         padding: 0 !important;
-        margin: 10px 0 15px 0 !important;
+        margin: 0 0 20px 0 !important;
     }
 
     .right-foot li {
-        width: 65px !important;
-        height: 28px !important;
-        margin: 4px !important;
+        width: 70px !important;
+        height: 32px !important;
+        margin: 0 !important;
     }
 
-    /* نظبط مكان وحجم أيقونات السوشيال ميديا وتكون في المنتصف */
+    /* نخلي أيقونات السوشيال ميديا جنب بعض أفقياً مش تحت بعض */
     .left-foot {
         display: flex !important;
-        flex-direction: column !important;
+        flex-direction: row !important;
+        justify-content: center !important;
         align-items: center !important;
+        gap: 15px !important;
         width: 100% !important;
-        margin-top: 10px !important;
+        margin-top: 5px !important;
     }
 
     .LL, .ww {
-        margin-left: 0 !important;
-        margin: 0 8px !important;
-        display: inline-block !important;
+        margin: 0 !important;
+        font-size: 22px !important;
     }
 
-    /* نظبط كلام حقوق النشر عشان يبقى صغير ومقروء في نص الشاشة */
     .p-footer {
-        font-size: 12px !important;
-        margin-top: 15px !important;
+        font-size: 11px !important;
+        margin-top: 20px !important;
         text-align: center !important;
-        padding: 0 10px !important;
+        opacity: 0.8;
     }
-}
-
-    }
-    .right-foot{
-flex-direction: column;    }
 }
 
