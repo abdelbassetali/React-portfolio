@@ -320,6 +320,14 @@ header.flex {
     color:rgb(95, 190, 250);
     opacity: 1;
 } 
+.social-icon a:hover {
+    background-color: var(--blue) !important;
+    border-color: var(--blue) !important;
+}
+
+.social-icon a:hover img {
+    filter: brightness(0) invert(1) !important;
+}
 
 .ss {
     font-size: 28px;
