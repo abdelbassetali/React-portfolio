@@ -21,7 +21,7 @@ const Header = () => {
             <button onClick={() => {
                 setsshow(true)
             }} className="menu icon-menu flex"> </button>
-            <div className="logo"> Logo</div>
+            <div className="logo"> Abdel Basset</div>
 
 
             <nav>
