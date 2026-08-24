@@ -313,7 +313,7 @@ header.flex {
     z-index: 2;
     transition: 0.3s ease-in-out;
     opacity: 0.8;
-    filter: brightness(0.5) invert(0.3); /* دي بتديك درجة رمادية هادية مش بياض فاقع */
+    filter: brightness(0.5) invert(0.7); /* دي بتديك درجة رمادية هادية مش بياض فاقع */
 }
 
 .social-icon a img:hover {
