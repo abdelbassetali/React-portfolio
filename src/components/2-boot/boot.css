@@ -91,11 +91,13 @@ circle{
  width: 90%;
  margin: auto;
 }
+
 .skills-h1 {
     text-align: center !important;
     display: block !important;
     width: 100% !important;
-    margin: 30px auto 5px auto !important;
+    margin-top: 40px !important; /* زود الرقم ده (مثلاً خليه 40px أو 50px) عشان تبعد عن الحافة وتنزله جوه الكارد براحتك */
+    margin-bottom: 5px !important;
     position: static !important;
     color: var(--title);
 }
@@ -104,7 +106,8 @@ circle{
     text-align: center !important;
     display: block !important;
     width: 100% !important;
-    margin: 50 auto 30px auto !important;
+    margin-top: 0 !important;
+    margin-bottom: 30px !important; /* المسافة دي بتفصل العنوان الصغير عن الدوائر وتحتفظ بمظهر مرتب */
     position: static !important;
     color: var(--title);
 }
