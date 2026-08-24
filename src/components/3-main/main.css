@@ -406,4 +406,16 @@ top-sction
         text-align: center !important;
         padding: 0 5px !important;
     }
+    /* إلغاء طبقة التدرج المنسدلة على الموبايل عشان ما تعلقش باللمس */
+    .card:hover::before,
+    .card::before {
+        display: none !important;
+    }
+
+    /* السماح فقط بالبرواز والروتيت الخفيف عند الضغط أو اللمس */
+    .card:hover {
+        border: 1px solid var(--blue) !important;
+        rotate: 1deg !important;
+        scale: 1.01 !important;
+    }
 }
