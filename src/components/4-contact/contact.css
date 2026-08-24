@@ -12,11 +12,19 @@
 .contan{
     height: 100px;
 }
-.email-1{
+/* .email-1{
     font-size: 30px;
  text-transform: capitalize;
  margin-top: 10px;
- margin-left: 70px;
+ margin-left: 50px;
+} */
+.email-1 {
+    font-size: 26px; /* قللناها حاجة بسيطة عشان توسع براحتها */
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-left: 50px; /* ظبطنا المسافة من الشمال */
+    max-width: 450px; /* بنحدد أقصى عرض عشان تخليه ينزل سطرين بس بالذوق اللي يعجبك */
+    line-height: 1.3; /* مسافة مريحة بين السطور */
 }
 .sing-in{
     border: none;
