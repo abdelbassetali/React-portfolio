@@ -303,58 +303,63 @@ top-sction
 }
 
 @media (max-width: 768px) {
-    /* ظبط الحاوية الأساسية للسكاشن */
     .butoom-sction {
         display: flex !important;
         flex-direction: row !important;
         flex-wrap: wrap !important;
-        justify-content: space-between !important; /* مسافات متساوية بين الكارتين */
-        gap: 10px !important;
+        justify-content: space-between !important;
+        gap: 8px !important;
         margin: 20px auto !important;
         margin-left: 0 !important;
-        padding: 0 8px !important;
+        padding: 0 6px !important;
         width: 100% !important;
         box-sizing: border-box !important;
     }
 
-    /* توسيع عرض الكارت قليلاً عشان ياخد مساحة كافية وما يخليش الكلام يطول وينزل تحت بعضه بعشوائية */
+    /* زودنا طول الكارت شوية عشان ياخد راحته بالبطول */
     .card {
         width: 48% !important;
+        min-height: 290px !important; /* زودنا الطول هنا */
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
         max-width: none !important;
-        margin-bottom: 10px !important;
+        margin-bottom: 12px !important;
         box-sizing: border-box !important;
     }
 
-    /* مقاس الصورة جوه الكارت عشان تبقى مظبوطة */
     .card img.img-card {
         width: 100% !important;
-        height: 110px !important;
+        height: 100px !important;
         object-fit: cover !important;
     }
 
-    /* ضبط الحشو الداخلي للكارت */
     .card .box {
         width: 100% !important;
-        padding: 6px !important;
+        padding: 8px !important;
         box-sizing: border-box !important;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
-    /* تصغير حجم خط العنوان الرئيسي للمشروع عشان يركب في سطر أو سطرين بشياكة */
+    /* صغرنا خط العنوان سَنة عشان ما يتكسرش بطريقة بشعة وينسق في سطرين بشياكة */
     .card .title-1 {
-        font-size: 13px !important;
-        line-height: 1.2 !important;
+        font-size: 11.5px !important;
+        line-height: 1.25 !important;
         margin-top: 0 !important;
         margin-bottom: 4px !important;
+        font-weight: bold;
     }
 
-    /* ضبط حجم وصف المشروع وخط الـ more */
     .card .sup-title {
-        font-size: 10px !important;
+        font-size: 9.5px !important;
         line-height: 1.3 !important;
-        margin-bottom: 8px !important;
+        margin-bottom: 6px !important;
     }
 
     .card .more {
-        font-size: 12px !important;
+        font-size: 11px !important;
     }
 }
