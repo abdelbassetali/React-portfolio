@@ -211,22 +211,7 @@ circle{
 
     }
 
-.outer {
-        position: relative !important;
-        margin: 0 auto !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-    }
 
-    .inner {
-        position: relative !important;
-        top: auto !important;
-        left: auto !important;
-        transform: none !important;
-        margin: 0 auto !important;
-    }
-/* 
     .outer {
 
         margin: 0 auto !important;
@@ -237,7 +222,7 @@ circle{
 
         left: auto !important;
 
-    } */
+  
 
 
 
