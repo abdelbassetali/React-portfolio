@@ -325,9 +325,7 @@ header.flex {
     border-color: var(--blue) !important;
 }
 
-.social-icon a:hover img {
-    filter: brightness(0) invert(1) !important;
-}
+
 
 .ss {
     font-size: 28px;
