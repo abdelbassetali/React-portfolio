@@ -104,12 +104,12 @@ color: var(--border)} */
     var(--title);
 }
 .more {
-    color: var(--title);
+    color: var((--icon);
 
 }
 
 .icon-github:hover {
-    color: var(--icon);
+    color: var( --blue);
     cursor: pointer;
 }
 
