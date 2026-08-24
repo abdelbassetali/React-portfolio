@@ -18,8 +18,8 @@ function Boot() {
             items: 2
         },
         mobile: {
-            breakpoint: { max: 464, min: 0 },
-            items: 1
+            breakpoint: { max: 768, min: 0 },
+            items: 2
         }
     };
 
