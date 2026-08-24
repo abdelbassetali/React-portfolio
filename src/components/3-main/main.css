@@ -101,10 +101,12 @@ top-sction
 
  .colorgithub{
    color: var(--title);
+         z-index: 3;
+
 }
 .more {
     color: var(--icon);
-
+         z-index: 3;
 }
 
 .icon-github:hover {
@@ -150,7 +152,7 @@ top-sction
     background: linear-gradient(to top, rgba(10, 10, 106, 0.326), rgba(72, 79, 159, 0.45), rgb(30, 32, 37));
     opacity: 0;
     transition: all .5s linear;
-    z-index: -1;
+    z-index: 2;
     pointer-events: none;
 
 }
