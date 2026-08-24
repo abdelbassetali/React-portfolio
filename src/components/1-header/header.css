@@ -44,6 +44,7 @@ header.flex {
     justify-content: space-between;
     padding: 0 2.5rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 header.flex nav {
@@ -238,7 +239,18 @@ header .icon-cross:hover {
 
         display: block;
     }
-
+header.flex {
+        padding: 0 1rem;
+        margin-top: 0.8rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    /* تظبط مسافة زرار Let's Connect لو ظاهر في مكان معين على الموبايل */
+    .connectt {
+        height: 45px;
+        width: 150px;
+        font-size: 18px;
+    }
 }
 @media (max-width:1000px) {
 
