@@ -62,38 +62,62 @@
     opacity: .7;
 }
 @media (max-width: 768px) {
-    /* اسم الكلاس الأب للقسم ده (عدل كلمة .contact-section دي لو الكلاس عندك مختلف باسم تاني) */
-    .contact-section, .contact-container {
+    .contan {
+        height: auto !important;
+        padding: 20px 10px !important;
+    }
+
+    .email {
+        position: relative !important;
+        width: 100% !important;
+        height: auto !important;
+        margin: 0 auto !important;
+        margin-left: 0 !important;
+        padding: 20px 15px !important;
         display: flex !important;
         flex-direction: column !important;
         align-items: center !important;
-        width: 100% !important;
-        padding: 15px !important;
+        text-align: center !important;
+        border-radius: 20px !important;
     }
 
-    /* تخلي الصورة تظهر فوق الأول وبحجم مناسب للشاشة */
-    .contact-section img, .contact-image {
+    .email-1 {
+        font-size: 20px !important;
+        margin: 0 0 15px 0 !important;
+        text-align: center !important;
+    }
+
+    .sing {
+        width: 100% !important;
+        height: auto !important;
+        margin: 0 !important;
+        padding: 15px 10px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        background: transparent !important; /* عشان تبقى متناسقة جوه الكارت */
+        border: none !important;
+    }
+
+    .sing-in {
         width: 100% !important;
         max-width: 280px !important;
-        height: auto !important;
-        margin-bottom: 20px !important;
-        display: block !important;
+        height: 45px !important;
+        margin: 0 0 10px 0 !important;
+        padding: 0 10px !important;
     }
 
-    /* تخلي حقول الإدخال والـ Form تحت بعض بانتظام وعرض ممتاز */
-    .contact-section form, .contact-form {
+    .btn-sing {
         width: 100% !important;
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
+        max-width: 280px !important;
+        height: 45px !important;
+        margin: 0 !important;
+        text-align: center !important;
     }
 
-    .contact-section input, 
-    .contact-section textarea,
-    .contact-form input,
-    .contact-form textarea {
-        width: 90% !important;
-        max-width: 350px !important;
-        margin: 8px auto !important;
+    .thanks {
+        margin: 10px 0 0 0 !important;
+        font-size: 16px !important;
+        text-align: center !important;
     }
 }
