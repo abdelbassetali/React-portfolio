@@ -63,7 +63,7 @@ const Main = () => {
             </section>
             <section className="top-sction ">
                 <h1 className="myh">My Project</h1>
-                <p className="myh">  I am Abd el Basset Ali. I live in Qena and this is the React project   </p>
+                <p className="myh"> I am Abdel Basset Ali. I live in Egypt and this is my React portfolio.  </p>
                 <div >
                     <button onClick={() => {
                        setalaa("yasmeen");
