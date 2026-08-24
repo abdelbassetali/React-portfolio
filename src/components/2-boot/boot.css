@@ -104,86 +104,95 @@ circle{
     color: var(--title);
 
 } 
-
 @media (max-width: 768px) {
+    /* ظبط حاوية السلايدر الكبيرة */
     .yaso {
         width: 95% !important;
-        height: auto !important; 
-        padding: 25px 15px !important; /* زودنا البادينج العام */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .skills-h1 {
-        position: static !important;
-        margin: 10px auto !important;
-        font-size: 22px; /* كبرنا الخط شوية */
-        text-align: center;
-    }
-
-    .skills-h2 {
-        position: static !important;
-        margin: 5px auto 20px auto !important;
-        font-size: 14px;
-        text-align: center;
-    }
-
-    .BOOT {
-        height: auto !important;
-        margin-bottom: 20px !important;
-    }
-
-    /* التعديل الأساسي هنا: كبرنا عرض وارتفاع الكارد عشان الدائرة تبان كاملة */
-    .corsel {
-        width: 280px !important; /* كان 220px، زودناه لـ 280px */
-        height: 320px !important; /* كان 250px، زودناه لـ 320px */
-        margin: 15px auto !important;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 20px !important; /* زودنا البادينج الداخلي */
-        border-radius: 30px !important; /* ظبطنا الكورنر */
-    }
-
-    /* حجم الدائرة نفسه زي ما هو عشان مناسب للعرض الجديد */
-    .skill {
-        width: 120px !important;
-        height: 120px !important;
-        margin: 0 auto !important;
+        padding: 30px 10px !important;
         position: relative !important;
     }
 
+    /* كارت المهارة الفردي وجعله في المنتصف */
+    .react-multi-carousel-item {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    /* تحجيم الكارت الداخلي ليستوعب الدائرة براحته */
+    .skill {
+        width: 240px !important;
+        height: 280px !important;
+        margin: 0 auto !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        position: relative !important;
+    }
+
+    /* إلغاء الـMargins الخاصة باللاب توب تماماً */
+    .skills {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
     .outer {
-        width: 120px !important;
-        height: 120px !important;
-        padding: 10px !important;
-        margin-top: 0 !important;
-        margin-left: 0 !important;
+        width: 130px !important;
+        height: 130px !important;
+        margin: 0 !important;
+        padding: 15px !important;
+        position: relative !important;
     }
 
     .inner {
-        height: 90px !important;
-        width: 90px !important;
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .cricle {
+        width: 130px !important;
+        height: 130px !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+    }
+
+    /* تعديل إحداثيات الدائرة الداخلية الـ SVG */
+    .cricle circle {
+        cx: 65px !important;
+        cy: 65px !important;
+        r: 55px !important;
+        stroke-dasharray: 345 !important; /* يتناسب مع نصف القطر الجديد */
     }
 
     #number {
-        font-size: 18px;
+        font-size: 18px !important;
     }
 
     .jopp {
-        margin-top: 25px !important; /* زودنا المسافة بين الدائرة والنص */
-        font-size: 16px;
-        text-align: center;
-        font-weight: 600;
+        margin-top: 15px !important;
+        font-size: 15px !important;
+        text-align: center !important;
+        position: static !important;
     }
 
-    /* ظبطنا مكان الأسهم بناءً على الارتفاع الجديد للكارد */
-    .slick-arrow,
-    .carousel-arrow {
-        top: 50% !important;
+    /* ضبط أسهم مكتبة react-multi-carousel لتكون في المنتصف رأسياً */
+    .react-multiple-carousel__arrow {
+        min-width: 35px !important;
+        min-height: 35px !important;
+        top: 45% !important;
         transform: translateY(-50%) !important;
+        z-index: 10 !important;
+    }
+    
+    .react-multiple-carousel__arrow--left {
+        left: 5px !important;
+    }
+
+    .react-multiple-carousel__arrow--right {
+        right: 5px !important;
     }
 }
-
