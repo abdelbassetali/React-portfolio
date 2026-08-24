@@ -13,7 +13,7 @@ html {
 :root {
   --black: #000;
   --secindary: rgb(24 24 27);
-  --border: rgba(63, 63, 68, .3);
+  --border: rgba(255, 255, 255, 0.856);
   --title: rgb(244 244 245);
   --childtitle: rgb(160 160 180);
   --header: rgb(40, 40, 44);
