@@ -182,33 +182,30 @@ width: 100px;
 }
  
  html {scrollbar-color: #5a5a5ae8 #010a14;} 
-
 .scrool {
-  background-color: var(--secindary); /* بياخد لون الخلفية الثانوية للموقع عندك */
-  color: var(--title); /* لون السهم بياخد لون النصوص الأساسية */
-  border: 1px solid var(--border); /* بياخد نفس إطار الكروت والشاشات عندك */
+  background-color: #4b4b52 !important; /* لون رمادي واضح جداً مش بيختفي */
+  color: #ffffff !important; /* السهم أبيض صريح عشان ينطق ويبان */
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
   width: 2.3rem;
   height: 2.3rem;
   border-radius: 50%;
   text-align: center;
   bottom: 2rem;
-  right: 2rem !important; /* نقلناه للركن اليمين عشان يبعد عن الكلام خالص */
+  right: 2rem !important;
   left: auto !important;
   position: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   z-index: 999;
-  opacity: 0.85;
+  opacity: 1 !important; /* لغدنا الشفافية عشان يبان باين وصريح */
   transition: 0.3s;
   }
 
   .scrool:hover {
-  background-color: var(--title); /* العكس وقت المرور بالماوس */
-  color: var(--secindary);
-  border: 1px solid var(--blue);
-  opacity: 1;
+  background-color: #007bff !important; /* لما تقف عليه يوديك للون الأزرق الشيك بتاع الموقع */
+  color: #ffffff !important;
   transform: translateY(-3px);
   }
  /* //////////////////////////////////
