@@ -101,7 +101,7 @@ top-sction
 /* .icon-github {
 color: var(--border)} */
 .colorgithub{
-    var(--childtitle);
+    var(--title);
 }
 .more {
     color: var(--title);
