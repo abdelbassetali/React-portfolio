@@ -81,7 +81,8 @@ circle{
     font-weight: bold;
     text-transform: capitalize;
     color: var(--title);
-
+    margin: 0 auto !important;
+  width:90%
 }
 
 .yaso{
@@ -106,7 +107,7 @@ circle{
     text-align: center !important;
     display: block !important;
     width: 100% !important;
-    margin-top: 70px !important;
+    margin-top: 40px !important;
     margin-bottom: 30px !important; /* المسافة دي بتفصل العنوان الصغير عن الدوائر وتحتفظ بمظهر مرتب */
     position: static !important;
     color: var(--title);
