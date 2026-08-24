@@ -91,19 +91,23 @@ circle{
  width: 90%;
  margin: auto;
 }
-.skills-h1{
-    position: absolute;
-    margin-left: 510px;
-    margin-top: 20px;
+.skills-h1 {
+    text-align: center !important;
+    display: block !important;
+    width: 100% !important;
+    margin: 30px auto 5px auto !important;
+    position: static !important;
     color: var(--title);
 }
-.skills-h2{
-    position: absolute;
-    margin-left: 450px;
-    margin-top: 80px;
-    color: var(--title);
 
-} 
+.skills-h2 {
+    text-align: center !important;
+    display: block !important;
+    width: 100% !important;
+    margin: 0 auto 30px auto !important;
+    position: static !important;
+    color: var(--title);
+}
 @media (max-width: 768px) {
     /* الكارد الحاضن للسلايدر للعرض الكامل */
     .yaso {
