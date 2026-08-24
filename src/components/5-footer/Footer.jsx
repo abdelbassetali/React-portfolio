@@ -6,7 +6,7 @@ const Footer = () => {
 
         
         <footer className="flex foot">
-            <p className="alaa">Logo</p>
+            <p className="Abdelbasset Aly">Logo</p>
             <ul className="right-foot flex">
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
