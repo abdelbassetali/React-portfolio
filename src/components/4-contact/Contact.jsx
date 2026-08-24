@@ -15,7 +15,8 @@ const Contact = () => {
       <form onSubmit={handleSubmit} action="">
         <div className="email flex">
           <h4 className="email-1" >
-          Want to see more? Send me your email and let's collaborate.
+          Want to see more? Send me your
+          email and let's collaborate.
           </h4>
           <div className="sing">
             <input required className="sing-in" type="email" name="email" id="" placeholder="Enter your email" />
