@@ -183,23 +183,32 @@ width: 100px;
  
  html {scrollbar-color: #5a5a5ae8 #010a14;} 
 
- .scrool{
-  background-color: #5b5b5b79;
-  width: 1.5rem;
-  height:1.5rem;
+.scrool {
+  background-color: #ffffff !important; /* لون أبيض فاتح وواضح */
+  color: #007bff !important; /* لون السهم أزرق مميز */
+  width: 2.2rem;
+  height: 2.2rem;
   border-radius: 50%;
   text-align: center;
-  bottom: 4rem;
-  left: 50px;
+  bottom: 2rem;
+  right: 2rem !important; /* نقلناه للركن اليمين عشان يكون في مكان آمن بعيد عن الكلام */
+  left: auto !important;
   position: fixed;
-  margin-bottom: -10px;
-  opacity: .6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  opacity: 0.9;
+  transition: 0.3s;
+  }
 
- }.scrool:hover{
-  background-color: #063060;
-  border: 1px solid rgba(128, 128, 128, 0.283);
+  .scrool:hover {
+  background-color: #007bff !important;
+  color: #ffffff !important;
   opacity: 1;
- }
+  transform: translateY(-3px);
+  }
  /* //////////////////////////////////
  
  
