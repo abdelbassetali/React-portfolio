@@ -98,7 +98,7 @@ top-sction
 }
 
 .icon-github {
-color: #ffffff ;}
+color: var(--border)}
 
 .more {
     color: var(--title);
@@ -236,7 +236,9 @@ color: #ffffff ;}
 .form-button:hover {
     opacity: 1;
 }
-
+icon-1{
+     color: var(--title);
+}
 
 .myh{
     color: var(--title);
