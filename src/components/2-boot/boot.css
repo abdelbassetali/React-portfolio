@@ -212,7 +212,7 @@ circle{
 
 
 
-    .outer {
+    /* .outer {
 
         margin: 0 auto !important;
 
@@ -223,6 +223,12 @@ circle{
         /* left: auto !important; */
       margin-left:220px
 
+    } */
+.outer {
+        position: relative !important;
+        margin: 0 auto !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
     }
 
 
