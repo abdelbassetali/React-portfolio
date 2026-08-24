@@ -244,3 +244,60 @@ top-sction
     color: var(--title);
 
 }
+@media (max-width: 768px) {
+    /* تحويل حاوية الفورمة الأساسية لـ Flex عمودي عشان العناصر تيجي تحت بعضها */
+    .form {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100% !important;
+        padding: 10px !important;
+        margin-top: 20px !important;
+    }
+
+    /* ضبط صورة الكومبيوتر أو الـ Illustration عشان تظهر فوق وبحجم مناسب */
+    .img-form {
+        width: 90% !important;
+        max-width: 250px !important;
+        margin: 0 auto 20px auto !important;
+        display: block !important;
+    }
+
+    /* ضبط جزء الفورمة وخليه يأخذ عرض الشاشة */
+    .register-form {
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        margin: 0 !important;
+    }
+
+    /* حقول الاسم (First Name و Last Name) تفرش بشكل متناسق */
+    .name {
+        width: 90% !important;
+        margin: 8px 0 !important;
+        margin-left: 0 !important;
+    }
+
+    /* صندوق الرسالة (Textarea) يأخذ عرض مناسب ومريح للكتبة */
+    .placeholder {
+        width: 90% !important;
+        margin: 8px 0 !important;
+        margin-left: 0 !important;
+        height: 150px !important;
+        padding-bottom: 0 !important;
+    }
+
+    /* عنوان Get In Touch والزرار ييجوا في النص */
+    .title-form {
+        text-align: center !important;
+        font-size: 24px !important;
+        margin: 10px 0 !important;
+    }
+
+    .form-button {
+        width: 90% !important;
+        margin: 10px auto !important;
+        display: block !important;
+    }
+}
