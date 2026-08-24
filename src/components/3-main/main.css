@@ -319,7 +319,7 @@ top-sction
     /* زودنا طول الكارت شوية عشان ياخد راحته بالبطول */
     .card {
         width: 48% !important;
-        min-height: 290px !important; /* زودنا الطول هنا */
+        min-height: 250px !important; /* زودنا الطول هنا */
         display: flex !important;
         flex-direction: column !important;
         justify-content: space-between !important;
