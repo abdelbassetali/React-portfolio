@@ -19,7 +19,7 @@ body, html {
     margin: 20px 16px;
 }
 
- .skill{
+ /* .skill{
     width: 160px;
     height: 160px;
     position: relative;
@@ -27,6 +27,15 @@ body, html {
     margin-bottom: 500px;
     justify-content: space-between;
 
+} */
+.skill {
+    width: 160px;
+    height: auto;
+    position: relative;
+    margin: 0 auto !important;     /* توسيط الكارت كله أفقياً */
+    display: flex;
+    flex-direction: column;
+    align-items: center;         /* توسيط العناصر جوا الكارت عمودياً في النص */
 }
 
 .outer{
@@ -76,14 +85,24 @@ circle{
 
 }
 
-.jopp{
+.jopp {
+    margin-top: 25px !important;    /* المسافة بين الدائرة والكلام */
+    text-align: center !important;  /* توسيط النص في منتصف الدايرة */
+    position: static !important;
+    width: 100% !important;         /* عشان ياخد عرضه كامل وميتحشورقش */
+    display: block !important;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: var(--title);
+}
+/* .jopp{
     margin-top: 60px !important;
     font-weight: bold;
     text-transform: capitalize;
     color: var(--title);
     width:90%
 
-}
+} */
 
 .yaso{
     background-color: rgba(155, 155, 155, 0.187);
