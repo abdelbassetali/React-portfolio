@@ -211,15 +211,22 @@ circle{
 
     }
 
-.inner {
-        position: absolute !important;
-        top: 50% !important;
-        left: 45% !important; /* قللنا الشمال شوية عشان ترجع سنتر الدايرة الكبيرة بالظبط */
-        transform: translate(-50%, -50%) !important;
-        margin: 0 !important;
-        z-index: 2;
+.outer {
+        position: relative !important;
+        margin: 0 auto !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
     }
 
+    .inner {
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        transform: none !important;
+        margin: 0 auto !important;
+    }
+/* 
     .outer {
 
         margin: 0 auto !important;
@@ -230,7 +237,7 @@ circle{
 
         left: auto !important;
 
-    }
+    } */
 
 
 
