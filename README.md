@@ -9,8 +9,9 @@ Welcome to my personal portfolio website! This project is built using React to s
 
 ## 🛠️ Technologies Used
 - **React.js** (JavaScript Library)
+- **Bootstrap** (for UI components & Slider)
+- **LottieFiles** (for animations & JSON motion graphics)
 - **HTML5 & CSS3** (Styling & Layout)
-- **Leaflet.js** (for web mapping and GIS integration)
 - **Visual Studio Code**
 
 ## 💻 Live Demo
