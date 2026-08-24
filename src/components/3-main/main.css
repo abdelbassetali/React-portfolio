@@ -406,6 +406,19 @@ top-sction
         text-align: center !important;
         padding: 0 5px !important;
     }
+    .card::before,
+    .card:hover::before,
+    .card:active::before {
+        display: none !important;
+    }
+    
+    /* إلغاء حركة الدوران والتبرير والتكبر على الموبايل عشان الكارد يفضل ثابت ونضيف */
+    .card:hover {
+        transform: none !important;
+        rotate: 0deg !important;
+        scale: 1 !important;
+        border: 1px solid var(--childtitle) !important; /* يفضل باللون العادي من غير ما يتغير للأزرق بالملامسة */
+    }
 }
 
 
