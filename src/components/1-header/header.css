@@ -23,7 +23,7 @@ header ul li a {
 
 .logo {
     font-weight: 700;
-    font-size: 22px;         /* صغرناه سيكا عشان يقعد براحته في سطر واحد */
+    font-size: 22px;       
  letter-spacing: 1px; 
     color: var(--title);
        white-space: nowrap; 
@@ -247,7 +247,6 @@ header.flex {
         margin-bottom: 0.8rem;
     }
     
-    /* تظبط مسافة زرار Let's Connect لو ظاهر في مكان معين على الموبايل */
     .connectt {
         height: 45px;
         width: 150px;
@@ -315,7 +314,7 @@ header.flex {
     z-index: 2;
     transition: 0.3s ease-in-out;
     opacity: 0.8;
-    filter: brightness(0.3) invert(0.6); /* دي بتديك درجة رمادية هادية مش بياض فاقع */
+    filter: brightness(0.3) invert(0.6); 
 }
 
 .social-icon a img:hover {
@@ -329,24 +328,20 @@ header.flex {
     margin-left: 5px;
 }
 
-/* حل مشكلة ألوان الـ Modal في وضع الـ Light Mode */
 body.light header .fixed ul.model {
-    background-color: #ffffff !important; /* خلفية بيضاء صافية */
+    background-color: #ffffff !important; 
 }
 
 body.light header .fixed ul.model li a {
-    color: #111111 !important; /* لون كلام غامق وواضح */
+    color: #111111 !important; 
 }
 
 body.light header .fixed .icon-cross {
-    color: #111111 !important; /* لون زر الإغلاق */
+    color: #111111 !important; 
 }
 
 body.light header .fixed ul.model li {
-    border-bottom: 1px solid #e0e0e0 !important; /* لون خط فاصل فاتح ومناسب */
+    border-bottom: 1px solid #e0e0e0 !important; 
 }
-/* ///////////////////////////////////////////
 
-header end
 
- /* /* /////////////////////////////////////////////////// */
