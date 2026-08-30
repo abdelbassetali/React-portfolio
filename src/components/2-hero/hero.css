@@ -129,7 +129,6 @@ margin-top: 20px;
     font-size: 50px;
   }
 @media (max-width: 768px) {
-    /* تحويل حاوية الهيرو لعرض كامل وتوسيط المحتوى */
     .Hero {
         margin-top: 1.5rem !important;
         display: flex !important;
@@ -140,7 +139,6 @@ margin-top: 20px;
         box-sizing: border-box !important;
     }
 
-    /* القسم الشمال ياخد العرض كامل ويكون في النص */
     .left {
         width: 100% !important;
         display: flex !important;
@@ -149,26 +147,22 @@ margin-top: 20px;
         text-align: center !important;
     }
 
-    /* توسيط الأفاتار وصورة البروفايل */
     .img-avatar {
         justify-content: center !important;
     }
 
-    /* ضبط حجم زرار الـ Welcome عشان ما يعديش عرض الشاشة */
     .btn-left {
         width: 100% !important;
         max-width: 270px !important;
         margin-left: 0 !important;
     }
 
-    /* تصغير حجم خط الاسم والـ Typewriter عشان يظبطوا على الشاشة الصغيرة */
     .wwriter {
         font-size: 28px !important;
         text-align: center !important;
         line-height: 1.2 !important;
     }
 
-    /* ضبط النبذة وتوسيطها مع مسافة مريحة للعين */
     .p1 {
         font-size: 14px !important;
         line-height: 1.6 !important;
@@ -176,25 +170,22 @@ margin-top: 20px;
         padding: 0 10px !important;
     }
 
-    /* توسيط الأيقونات تحت بعض أو جنب بعض بشكل مظبوط */
     .icon-left {
         margin-left: 0 !important;
         justify-content: center !important;
     }
 
-    /* توسيط جزء Let's Connect */
     .letscon {
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
     }
 
-    /* ضبط الأنيميشن (الجزء اليمين) ووضعها بحجم متناسق ومريح في النص */
     .right.animation {
         width: 100% !important;
         max-width: 220px !important;
         margin: 20px auto 10px auto !important;
-        order: 2 !important; /*بتخلي الأنيميشن تظهر تحت خالص بعد الاسم،       */
+        order: 2 !important; 
     }
 }
 
