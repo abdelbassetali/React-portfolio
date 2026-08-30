@@ -19,12 +19,12 @@
  margin-left: 50px;
 } */
 .email-1 {
-    font-size: 26px; /* قللناها حاجة بسيطة عشان توسع براحتها */
+    font-size: 26px; 
     text-transform: capitalize;
     margin-top: 10px;
-    margin-left: 50px; /* ظبطنا المسافة من الشمال */
-    max-width: 450px; /* بنحدد أقصى عرض عشان تخليه ينزل سطرين بس بالذوق اللي يعجبك */
-    line-height: 1.3; /* مسافة مريحة بين السطور */
+    margin-left: 50px;
+    max-width: 450px;
+    line-height: 1.3;
 }
 .sing-in{
     border: none;
@@ -100,7 +100,6 @@
         width: 100% !important;
     }
 
-    /* نخلي الصندوق الأبيض بتاع الإيميل والزرار يظهر بوضوح وبشكل منسق على الموبايل */
     .sing {
         width: 100% !important;
         max-width: 300px !important;
