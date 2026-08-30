@@ -248,7 +248,6 @@ top-sction
 }
 
 @media (max-width: 768px) {
-    /* تحويل حاوية الفورمة الأساسية لـ Flex عمودي عشان العناصر تيجي تحت بعضها */
     .form {
         display: flex !important;
         flex-direction: column !important;
@@ -258,7 +257,6 @@ top-sction
         margin-top: 20px !important;
     }
 
-    /* ضبط صورة الكومبيوتر أو الـ Illustration عشان تظهر فوق وبحجم مناسب */
     .img-form {
         width: 90% !important;
         max-width: 250px !important;
@@ -266,7 +264,6 @@ top-sction
         display: block !important;
     }
 
-    /* ضبط جزء الفورمة وخليه يأخذ عرض الشاشة */
     .register-form {
         width: 100% !important;
         display: flex !important;
@@ -275,7 +272,6 @@ top-sction
         margin: 0 !important;
     }
 
-    /* حقول الاسم (First Name و Last Name) تفرش بشكل متناسق */
     .name {
         width: 90% !important;
         margin: 8px 0 !important;
@@ -286,11 +282,10 @@ top-sction
         width: 90% !important;
         margin: 8px 0 !important;
         margin-left: 0 !important;
-        height: 80px !important; /* صغرنا الارتفاع بدل 150px أو أكتر */
+        height: 80px !important; 
         padding-bottom: 0 !important;
     }
 
-    /* عنوان Get In Touch والزرار ييجوا في النص */
     .title-form {
         text-align: center !important;
         font-size: 24px !important;
@@ -304,7 +299,6 @@ top-sction
     }
 }
 @media (max-width: 768px) {
-    /* 1. ضبط حاوية أزرار التبويبات لتظهر في سطرين بانتظام من غير ما الرابع ينزل لوحده */
     .top-sction div {
         display: flex !important;
         flex-wrap: wrap !important;
@@ -325,7 +319,6 @@ top-sction
         box-sizing: border-box !important;
     }
 
-    /* 2. ضبط السكاشن والكروت لتظهر كارتين جنب بعض بمقاسات متناسقة */
     .butoom-sction {
         display: flex !important;
         flex-direction: row !important;
@@ -341,7 +334,7 @@ top-sction
 
     .card {
         width: 48% !important;
-        min-height: 245px !important; /* طول الكارت مظبوط ومرتاح */
+        min-height: 245px !important; 
         display: flex !important;
         flex-direction: column !important;
         justify-content: space-between !important;
@@ -383,14 +376,12 @@ top-sction
     .card .more {
         font-size: 11px !important;
     }
-    /* حاوية الـ Top Section بشكل عام على الموبايل */
     .top-sction {
         padding: 0 10px !important;
         margin-top: 20px !important;
         box-sizing: border-box !important;
     }
 
-    /* ضبط عنوان "My Project" على الموبايل */
     .top-sction .myh:first-child, 
     .top-sction h1.myh {
         font-size: 24px !important;
@@ -399,7 +390,6 @@ top-sction
         text-align: center !important;
     }
 
-    /* ضبط نبذة "I am Abd el Basset Ali..." على الموبايل */
     .top-sction .myh:not(:first-child),
     .top-sction p.myh {
         font-size: 12px !important;
@@ -414,12 +404,11 @@ top-sction
         display: none !important;
     }
     
-    /* إلغاء حركة الدوران والتبرير والتكبر على الموبايل عشان الكارد يفضل ثابت ونضيف */
     .card:hover {
         transform: none !important;
         rotate: 0deg !important;
         scale: 1 !important;
-        border: 1px solid var(--childtitle) !important; /* يفضل باللون العادي من غير ما يتغير للأزرق بالملامسة */
+        border: 1px solid var(--childtitle) !important; 
     }
 }
 
