@@ -71,7 +71,6 @@ color: var(--title);
         margin-left: 0 !important;
     }
 
-    /* نخلي لينكات القائمة جنب بعض في سطر واحد وبشكل شيك */
     .right-foot {
         flex-direction: row !important;
         justify-content: center !important;
@@ -86,7 +85,6 @@ color: var(--title);
         margin: 0 !important;
     }
 
-    /* نخلي أيقونات السوشيال ميديا جنب بعض أفقياً مش تحت بعض */
     .left-foot {
         display: flex !important;
         flex-direction: row !important;
