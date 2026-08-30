@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body, html {
-  overflow-x: hidden; /* دي بتمنع الحركة العرضية تماماً على الموبايل */
+  overflow-x: hidden; 
   max-width: 100%;
 }
 .BOOT{
@@ -78,10 +78,10 @@ circle{
 }
 
 .jopp {
-    margin-top: 35px !important;    /* المسافة بين الدائرة والكلام */
-    text-align: center !important;  /* توسيط النص في منتصف الدايرة */
+    margin-top: 35px !important;   
+    text-align: center !important; 
     position: static !important;
-    width: 100% !important;         /* عشان ياخد عرضه كامل وميتحشورقش */
+    width: 100% !important;        
     display: block !important;
     font-weight: bold;
     text-transform: capitalize;
@@ -99,7 +99,7 @@ circle{
     text-align: center !important;
     display: block !important;
     width: 100% !important;
-    margin-top: 40px !important; /* زود الرقم ده (مثلاً خليه 40px أو 50px) عشان تبعد عن الحافة وتنزله جوه الكارد براحتك */
+    margin-top: 40px !important; 
     margin-bottom: 5px !important;
     position: static !important;
     color: var(--title);
@@ -110,26 +110,24 @@ circle{
     display: block !important;
     width: 100% !important;
     margin-top: 40px !important;
-    margin-bottom: 30px !important; /* المسافة دي بتفصل العنوان الصغير عن الدوائر وتحتفظ بمظهر مرتب */
+    margin-bottom: 30px !important; 
     position: static !important;
     color: var(--title);
 }
 
 @media (max-width: 768px) {
-    /* الكارد الحاضن للسلايدر للعرض الكامل */
     .yaso {
         width: 100% !important;
         height: auto !important;
         padding: 10px 0 !important;
         margin: 15px auto !important;
     }
-    /* العناوين ثابتة ومرتبة فوق */
  .skills-h1 {
     text-align: center !important;
     display: block !important;
     width: 100% !important;
     margin: 20px auto 5px auto !important;
-    position: static !important; /* عشان نلغي أي position absolute قديم كان بيطيرهم */
+    position: static !important; 
 }
 .skills-h2 {
     text-align: center !important;
@@ -138,7 +136,6 @@ circle{
     margin: 0 auto 20px auto !important;
     position: static !important;
 }
-    /* ضبط حجم الكارت لكل دائرة عشان يشيلهم جنب بعض */
     .skill {
         width: 130px !important;
         height: 180px !important;
@@ -149,7 +146,6 @@ circle{
         justify-content: center !important;
     }
 
-    /* تصغير حجم الدائرة نفسها بالـ Scale عشان تناسب الشاشة الصغيرة */
     .skills {
         transform: scale(0.65) !important;
         transform-origin: center center;
@@ -173,13 +169,12 @@ circle{
         transform: translateX(-50%) !important;
     }
  .jopp {
-        margin-top: 39px !important;    /* عشان ننزل الكلام لتحت براحته */
+        margin-top: 39px !important;   
         text-align: center !important;
         position: static !important;
-        font-size: 16px !important;     /* كبرنا الخط من 14px لـ 16px عشان يبدي وضوح أحسن */
-        font-weight: 600 !important;    /* اختياري: لو حابب تخلي خط العنوان أوضح وأبرز */
+        font-size: 16px !important;     
+        font-weight: 600 !important;   
     }
-    /* تظبيط مكان الأسهم في نص الكارت تماماً */
     .react-multiple-carousel__arrow {
         top: 50% !important;
         transform: translateY(-50%) !important;
